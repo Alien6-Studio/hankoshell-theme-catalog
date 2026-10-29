@@ -1,0 +1,479 @@
+{
+  "blocks": [
+    {
+      "id": "civique-section-label",
+      "type": "text",
+      "zone": "header",
+      "text": "UN MESSAGE POUR VOUS",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 9,
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "color": "#596c80"
+      }
+    },
+    {
+      "id": "civique-footer",
+      "type": "text",
+      "zone": "footer",
+      "text": "© Aurora · Confidentialité et conditions",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 10,
+        "lineHeight": 1.6,
+        "color": "#596c80"
+      }
+    },
+    {
+      "id": "civique-email-title",
+      "type": "heading",
+      "zone": "header",
+      "text": "Votre espace. Vos démarches. Tout simplement.",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400,
+        "lineHeight": 1.2,
+        "color": "#172b43"
+      }
+    },
+    {
+      "id": "civique-email-body",
+      "type": "text",
+      "zone": "aside",
+      "text": "Bonjour {{prénom}},\nActions requises",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 14,
+        "lineHeight": 1.7
+      }
+    }
+  ],
+  "preset": "civique",
+  "layout": "center",
+  "subject": "Actions requises",
+  "radius": 0,
+  "accent": "#1a538a",
+  "brand": {
+    "name": "aurora.",
+    "mark": "",
+    "alt": "Logo Aurora",
+    "size": 28,
+    "fontSize": 31,
+    "align": "left",
+    "color": "#172b43"
+  },
+  "appearance": {
+    "background": "#ffffff",
+    "surface": "#ffffff",
+    "foreground": "#172b43",
+    "muted": "#596c80",
+    "font": "Arial, sans-serif",
+    "density": "comfortable",
+    "padding": 32,
+    "gap": 28,
+    "contentWidth": 620,
+    "backgroundFit": "cover",
+    "headingFont": "Arial, sans-serif"
+  },
+  "native": {
+    "background": "#ffffff",
+    "foreground": "#172b43",
+    "inputBackground": "#ffffff",
+    "inputBorder": "#bec4ca",
+    "padding": 34,
+    "radius": 0,
+    "gap": 18,
+    "buttonBackground": "#1a538a",
+    "buttonColor": "#ffffff",
+    "styles": {
+      "title": {
+        "fontSize": 28,
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "description": {
+        "fontSize": 13,
+        "lineHeight": 1.7,
+        "color": "#596c80"
+      },
+      "action": {
+        "fontSize": 13,
+        "fontWeight": 600,
+        "padding": 14
+      },
+      "nameLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#172b43"
+      },
+      "nameExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 0
+      },
+      "emailLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#172b43"
+      },
+      "emailExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 0
+      },
+      "usernameLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#172b43"
+      },
+      "usernameExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 0
+      },
+      "passwordLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#172b43"
+      },
+      "passwordExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 0
+      },
+      "otpLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#172b43"
+      },
+      "otpExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 0
+      }
+    },
+    "copy": {
+      "title": "Actions requises",
+      "description": "Quelques étapes pour garder votre compte à jour. Suivez votre lien personnel.",
+      "action": "Vérifier",
+      "usernameLabel": "Adresse e-mail",
+      "usernameExample": "camille@aurora.fr",
+      "passwordLabel": "Mot de passe",
+      "passwordExample": "••••••••",
+      "otpLabel": "Code de vérification",
+      "otpExample": "000 000",
+      "nameLabel": "Nom complet",
+      "nameExample": "Camille Martin",
+      "emailLabel": "Adresse e-mail",
+      "emailExample": "camille@aurora.fr",
+      "row0": "Mon compte",
+      "row1": "Mes applications",
+      "row2": "",
+      "row0Action": "Modifier le mot de passe",
+      "row1Action": "Configurer le MFA",
+      "row2Action": "Gérer les sessions"
+    },
+    "fieldStyle": "outline",
+    "actionSize": "full"
+  },
+  "i18n": {
+    "defaultLocale": "fr",
+    "supportedLocales": [
+      "fr",
+      "en",
+      "es",
+      "de",
+      "it",
+      "pt-BR",
+      "ar",
+      "he"
+    ],
+    "messages": {
+      "en": {
+        "subject": "Required actions",
+        "brand.alt": "Aurora",
+        "native.title": "Required actions",
+        "native.description": "A few steps to keep your account up to date. Follow your personal link.",
+        "native.action": "Verify",
+        "native.usernameLabel": "Email address",
+        "native.passwordLabel": "Password",
+        "native.otpLabel": "Verification code",
+        "native.nameLabel": "Full name",
+        "native.emailLabel": "Email address",
+        "native.row0": "My account",
+        "native.row1": "My applications",
+        "native.row0Action": "Change password",
+        "native.row1Action": "Set up MFA",
+        "native.row2Action": "Manage sessions",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · Privacy and terms",
+        "blocks.civique-email-title.text": "Your space. Your services. Simply.",
+        "blocks.civique-email-body.text": "Hello {{prénom}},\nRequired actions",
+        "blocks.civique-section-label.text": "A MESSAGE FOR YOU"
+      },
+      "es": {
+        "subject": "Acciones requeridas",
+        "brand.alt": "Aurora",
+        "native.title": "Acciones requeridas",
+        "native.description": "Unos pasos para mantener tu cuenta al día. Sigue tu enlace personal.",
+        "native.action": "Verificar",
+        "native.usernameLabel": "Correo electrónico",
+        "native.passwordLabel": "Contraseña",
+        "native.otpLabel": "Código de verificación",
+        "native.nameLabel": "Nombre completo",
+        "native.emailLabel": "Correo electrónico",
+        "native.row0": "Mi cuenta",
+        "native.row1": "Mis aplicaciones",
+        "native.row0Action": "Cambiar contraseña",
+        "native.row1Action": "Configurar MFA",
+        "native.row2Action": "Gestionar sesiones",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · Privacidad y condiciones",
+        "blocks.civique-email-title.text": "Tu espacio. Tus servicios. Así de sencillo.",
+        "blocks.civique-email-body.text": "Hola {{prénom}},\nAcciones requeridas",
+        "blocks.civique-section-label.text": "UN MENSAJE PARA TI"
+      },
+      "de": {
+        "subject": "Erforderliche Aktionen",
+        "brand.alt": "Aurora",
+        "native.title": "Erforderliche Aktionen",
+        "native.description": "Halten Sie Ihr Konto aktuell. Folgen Sie Ihrem persönlichen Link.",
+        "native.action": "Bestätigen",
+        "native.usernameLabel": "E-Mail-Adresse",
+        "native.passwordLabel": "Passwort",
+        "native.otpLabel": "Bestätigungscode",
+        "native.nameLabel": "Vollständiger Name",
+        "native.emailLabel": "E-Mail-Adresse",
+        "native.row0": "Mein Konto",
+        "native.row1": "Meine Anwendungen",
+        "native.row0Action": "Passwort ändern",
+        "native.row1Action": "MFA einrichten",
+        "native.row2Action": "Sitzungen verwalten",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · Datenschutz und Bedingungen",
+        "blocks.civique-email-title.text": "Ihr Bereich. Ihre Dienste. Ganz einfach.",
+        "blocks.civique-email-body.text": "Hallo {{prénom}},\nErforderliche Aktionen",
+        "blocks.civique-section-label.text": "EINE NACHRICHT FÜR SIE"
+      },
+      "it": {
+        "subject": "Azioni richieste",
+        "brand.alt": "Aurora",
+        "native.title": "Azioni richieste",
+        "native.description": "Pochi passaggi per aggiornare il tuo account. Segui il link personale.",
+        "native.action": "Verifica",
+        "native.usernameLabel": "Indirizzo email",
+        "native.passwordLabel": "Password",
+        "native.otpLabel": "Codice di verifica",
+        "native.nameLabel": "Nome completo",
+        "native.emailLabel": "Indirizzo email",
+        "native.row0": "Il mio account",
+        "native.row1": "Le mie applicazioni",
+        "native.row0Action": "Cambia password",
+        "native.row1Action": "Configura MFA",
+        "native.row2Action": "Gestisci sessioni",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · Privacy e condizioni",
+        "blocks.civique-email-title.text": "Il vostro spazio. I vostri servizi. Semplicemente.",
+        "blocks.civique-email-body.text": "Ciao {{prénom}},\nAzioni richieste",
+        "blocks.civique-section-label.text": "UN MESSAGGIO PER TE"
+      },
+      "pt-BR": {
+        "subject": "Ações necessárias",
+        "brand.alt": "Aurora",
+        "native.title": "Ações necessárias",
+        "native.description": "Algumas etapas para atualizar sua conta. Siga seu link pessoal.",
+        "native.action": "Verificar",
+        "native.usernameLabel": "Endereço de e-mail",
+        "native.passwordLabel": "Senha",
+        "native.otpLabel": "Código de verificação",
+        "native.nameLabel": "Nome completo",
+        "native.emailLabel": "Endereço de e-mail",
+        "native.row0": "Minha conta",
+        "native.row1": "Meus aplicativos",
+        "native.row0Action": "Alterar senha",
+        "native.row1Action": "Configurar MFA",
+        "native.row2Action": "Gerenciar sessões",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · Privacidade e termos",
+        "blocks.civique-email-title.text": "Seu espaço. Seus serviços. Simples assim.",
+        "blocks.civique-email-body.text": "Olá {{prénom}},\nAções necessárias",
+        "blocks.civique-section-label.text": "UMA MENSAGEM PARA VOCÊ"
+      },
+      "ar": {
+        "subject": "الإجراءات المطلوبة",
+        "brand.alt": "Aurora",
+        "native.title": "الإجراءات المطلوبة",
+        "native.description": "بضع خطوات لتحديث حسابك. اتبع رابطك الشخصي.",
+        "native.action": "تحقق",
+        "native.usernameLabel": "البريد الإلكتروني",
+        "native.passwordLabel": "كلمة المرور",
+        "native.otpLabel": "رمز التحقق",
+        "native.nameLabel": "الاسم الكامل",
+        "native.emailLabel": "البريد الإلكتروني",
+        "native.row0": "حسابي",
+        "native.row1": "تطبيقاتي",
+        "native.row0Action": "تغيير كلمة المرور",
+        "native.row1Action": "إعداد المصادقة متعددة العوامل",
+        "native.row2Action": "إدارة الجلسات",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · الخصوصية والشروط",
+        "blocks.civique-email-title.text": "مساحتك. خدماتك. بكل بساطة.",
+        "blocks.civique-email-body.text": "مرحبًا {{prénom}}،\nالإجراءات المطلوبة",
+        "blocks.civique-section-label.text": "رسالة لك"
+      },
+      "he": {
+        "subject": "פעולות נדרשות",
+        "brand.alt": "Aurora",
+        "native.title": "פעולות נדרשות",
+        "native.description": "כמה צעדים לעדכון החשבון. השתמשו בקישור האישי.",
+        "native.action": "אימות",
+        "native.usernameLabel": "כתובת דוא״ל",
+        "native.passwordLabel": "סיסמה",
+        "native.otpLabel": "קוד אימות",
+        "native.nameLabel": "שם מלא",
+        "native.emailLabel": "כתובת דוא״ל",
+        "native.row0": "החשבון שלי",
+        "native.row1": "היישומים שלי",
+        "native.row0Action": "שינוי סיסמה",
+        "native.row1Action": "הגדרת אימות רב-שלבי",
+        "native.row2Action": "ניהול חיבורים",
+        "brand.name": "aurora.",
+        "blocks.civique-footer.text": "© Aurora · פרטיות ותנאים",
+        "blocks.civique-email-title.text": "המרחב שלכם. השירותים שלכם. בפשטות.",
+        "blocks.civique-email-body.text": "שלום {{prénom}},\nפעולות נדרשות",
+        "blocks.civique-section-label.text": "הודעה בשבילך"
+      },
+      "fr": {
+        "brand.name": "aurora.",
+        "brand.alt": "Aurora"
+      }
+    },
+    "automatic": {
+      "en": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "es": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "de": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "it": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "pt-BR": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "ar": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "he": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ]
+    }
+  }
+}

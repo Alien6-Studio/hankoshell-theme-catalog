@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "patrimoine",
+  "headline": "Patrimoine",
+  "subline": "La discrétion a de l’allure.",
+  "fontFamily": "Arial, sans-serif",
+  "colors": {
+    "light": {
+      "background": "#173e32",
+      "foreground": "#fbf8ef",
+      "primary": "#365e50",
+      "primaryForeground": "#ffffff",
+      "card": "#fbf8ef",
+      "muted": "#b6c4b7",
+      "input": "#fbf8ef",
+      "border": "#fbf8ef"
+    },
+    "dark": {
+      "background": "#173e32",
+      "foreground": "#fbf8ef",
+      "primary": "#365e50",
+      "primaryForeground": "#ffffff",
+      "card": "#fbf8ef",
+      "muted": "#b6c4b7",
+      "input": "#fbf8ef",
+      "border": "#fbf8ef"
+    }
+  },
+  "layout": {
+    "cardRadius": "1px",
+    "controlRadius": "1px",
+    "contentWidth": "460px"
+  }
+}

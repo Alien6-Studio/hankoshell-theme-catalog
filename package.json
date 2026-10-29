@@ -1,0 +1,60 @@
+{
+  "name": "@alien6/hankoshell-theme-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node test/validate.cjs && node --test test/*.test.mjs && node test/package-consumer.mjs",
+    "prepack": "npm run build",
+    "package:candidate": "npm run build && node scripts/package-candidate.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.20.0"
+  },
+  "type": "module",
+  "description": "Canonical editable theme catalogue and authored layouts for Hanko Theme Studio",
+  "files": [
+    "dist",
+    "contracts",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./frames": {
+      "types": "./dist/frames.d.ts",
+      "import": "./dist/frames.js"
+    },
+    "./catalog.json": "./dist/catalog.json",
+    "./source.json": "./dist/source.json",
+    "./font-notices.txt": "./dist/font-notices.txt",
+    "./contracts": "./contracts/validate.cjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alien6-Studio/hankoshell-theme-catalog.git"
+  },
+  "homepage": "https://github.com/Alien6-Studio/hankoshell-theme-catalog#readme",
+  "bugs": {
+    "url": "https://github.com/Alien6-Studio/hankoshell-theme-catalog/issues"
+  },
+  "keywords": [
+    "hankoshell",
+    "keycloak",
+    "identity",
+    "theme",
+    "catalogue",
+    "design-system"
+  ]
+}

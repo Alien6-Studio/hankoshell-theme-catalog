@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "comptoir",
+  "headline": "Comptoir",
+  "subline": "Le plaisir de revenir.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#fffdf9",
+      "foreground": "#403226",
+      "primary": "#b54d28",
+      "primaryForeground": "#ffffff",
+      "card": "#fffdf9",
+      "muted": "#7f6b58",
+      "input": "#fffdf9",
+      "border": "#cfcac4"
+    },
+    "dark": {
+      "background": "#fffdf9",
+      "foreground": "#403226",
+      "primary": "#b54d28",
+      "primaryForeground": "#ffffff",
+      "card": "#fffdf9",
+      "muted": "#7f6b58",
+      "input": "#fffdf9",
+      "border": "#cfcac4"
+    }
+  },
+  "layout": {
+    "cardRadius": "7px",
+    "controlRadius": "7px",
+    "contentWidth": "460px"
+  }
+}

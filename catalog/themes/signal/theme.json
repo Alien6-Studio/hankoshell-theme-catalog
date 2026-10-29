@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "signal",
+  "headline": "Signal",
+  "subline": "Impossible à confondre.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#141414",
+      "foreground": "#f8f8f3",
+      "primary": "#c4f25c",
+      "primaryForeground": "#000000",
+      "card": "#1d1e19",
+      "muted": "#a9ad9e",
+      "input": "#1d1e19",
+      "border": "#545550"
+    },
+    "dark": {
+      "background": "#141414",
+      "foreground": "#f8f8f3",
+      "primary": "#c4f25c",
+      "primaryForeground": "#000000",
+      "card": "#1d1e19",
+      "muted": "#a9ad9e",
+      "input": "#1d1e19",
+      "border": "#545550"
+    }
+  },
+  "layout": {
+    "cardRadius": "28px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}
