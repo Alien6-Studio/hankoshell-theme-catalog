@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "mouvement",
+  "headline": "Momentum",
+  "subline": "Start with momentum.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#171b31",
+      "primary": "#304cea",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#656b85",
+      "input": "#ffffff",
+      "border": "#c5c6cc"
+    },
+    "dark": {
+      "background": "#ffffff",
+      "foreground": "#171b31",
+      "primary": "#304cea",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#656b85",
+      "input": "#ffffff",
+      "border": "#c5c6cc"
+    }
+  },
+  "layout": {
+    "cardRadius": "2px",
+    "controlRadius": "2px",
+    "contentWidth": "460px"
+  }
+}

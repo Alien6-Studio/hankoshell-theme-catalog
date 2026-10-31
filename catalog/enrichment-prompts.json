@@ -1,0 +1,37 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "Enrichment of the existing Haven, Ritual, Counter and Momentum themes",
+  "license": "Apache-2.0",
+  "assets": [
+    {
+      "id": "maison",
+      "prompt": "Use case: ads-marketing. Asset type: original photographic panel for an editorial hospitality identity website. Primary request: a warmly art-directed photograph of a boutique Mediterranean guesthouse, ochre-red arched doorway, cream plaster walls, a richly textured terracotta chair with white linen, olive branch shadows in afternoon sun. Tactile, sophisticated architectural editorial photography, warm ivory and burnt red palette. Portrait 4:5, bold close composition also suitable for a wide crop. Real materials, memorable welcoming atmosphere. No people, no logos, no letters, no UI, no watermark, no abstract geometric illustration.",
+      "source": "themes/maison/assets/hero-source.png",
+      "rendered": "themes/maison/assets/hero.jpg"
+    },
+    {
+      "id": "rituel",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic panel for a calm contemporary wellbeing identity website. Primary request: a richly detailed close-up photograph of luminous green fern fronds, a few delicate small white blossoms and soft moss beside a natural spring, sunlight through leaves, fresh subtle water droplets. Botanical editorial art direction, sage greens, pale cream highlights and deep emerald shadows; organic and alive, no generic spa products. Portrait 4:5 with a bold diagonal leafy composition that can also crop horizontally. High quality natural photography. No text, no logo, no lettering, no UI, no watermark.",
+      "source": "themes/rituel/assets/hero-source.png",
+      "rendered": "themes/rituel/assets/hero.jpg"
+    },
+    {
+      "id": "comptoir",
+      "prompt": "Use case: ads-marketing. Asset type: original photographic panel for an artisan retail identity website. Primary request: an intimate editorial photograph of an adult ceramic artisan's hands carefully forming a terracotta bowl on a potter's wheel in a sunlit craft atelier. Clay dust, tactile unglazed ceramics, pale apricot workbench, a small red-orange glazed cup nearby. Crop at torso, hands and objects the main subjects, no face. Warm contemporary craft magazine photography, beautiful honest materials and natural believable hands. Portrait 4:5, readable at small sizes and suitable for a wide crop. No logos, no writing, no letters, no UI, no watermark.",
+      "source": "themes/comptoir/assets/hero-source.png",
+      "rendered": "themes/comptoir/assets/hero.jpg"
+    },
+    {
+      "id": "mouvement",
+      "prompt": "Use case: ads-marketing. Asset type: original photographic campaign panel for a bold sports identity website. Primary request: a dynamic low-angle close photograph of an adult runner mid-stride on a vivid cobalt blue running track, electric orange trainers and white socks, legs in motion, cropped at the waist. A crisp sunlight shadow crosses the track, bold powerful diagonal framing, premium sports advertising photography with real surface texture. Portrait 4:5, saturated cobalt and orange, bright daylight, sense of momentum. Anatomically natural adult legs, believable shoes, no logos, no text, no letters, no UI, no watermark.",
+      "source": "themes/mouvement/assets/hero-source.png",
+      "rendered": "themes/mouvement/assets/hero.jpg"
+    }
+  ],
+  "uiOptimization": {
+    "format": "JPEG",
+    "longEdge": 1000,
+    "quality": 65,
+    "originalsPreserved": true
+  }
+}

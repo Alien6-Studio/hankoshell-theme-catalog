@@ -1,0 +1,32 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "Original photographic assets for the editable Zest, Parade, Bloom and Shore themes",
+  "license": "Apache-2.0",
+  "uiOptimization": {"format": "JPEG", "longEdge": 960, "quality": 60, "originalsPreserved": true},
+  "assets": [
+    {
+      "theme": "zeste",
+      "source": "themes/zeste/assets/hero-source.png",
+      "rendered": "themes/zeste/assets/hero.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: photographic hero panel for a vibrant identity-theme website, portrait 4:5 composition. Primary request: a joyful, highly art-directed advertising photograph of juicy orange and pink grapefruit halves, a whole tangerine and glossy fresh green leaves, with suspended sparkling water droplets. Scene: a saturated electric cobalt blue studio backdrop, bold sunlight-like hard flash, rich orange and pink flesh, tactile peel, delicious real detail. Composition: immersive close crop, diagonal arrangement that remains striking in a small gallery thumbnail, subjects fill the frame. Medium: premium real product photography, playful contemporary advertising art direction, physically believable fruit. No UI, no letters, no logos, no labels, no typography, no watermark, no geometric abstract shapes, no muted beige."
+    },
+    {
+      "theme": "parade",
+      "source": "themes/parade/assets/hero-source.png",
+      "rendered": "themes/parade/assets/hero.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: photographic hero panel for a vivid cultural/community identity-theme website, portrait 4:5. Primary request: energetic editorial campaign photograph of three adults dancing together with joyful confident expressions, dynamic natural poses, one wearing electric blue, one tangerine orange, one chartreuse. Seamless hot coral-pink studio backdrop. Premium fashion campaign photography, crisp hard flash, believable skin texture, elegant casting, bold graphic crop showing torsos and moving limbs, joyful life and movement. Full-bleed photograph, no interface, no text, no letters, no logos, no watermarks, anatomically natural people, no abstract geometry."
+    },
+    {
+      "theme": "bloom",
+      "source": "themes/bloom/assets/hero-source.png",
+      "rendered": "themes/bloom/assets/hero.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: photographic hero panel for a vivid floral lifestyle identity-theme website, portrait 4:5. Primary request: exuberant editorial still-life macro photograph of oversized hot pink gerbera flowers and orange lilies with vivid fresh green leaves, against a deep luminous ultramarine studio backdrop. A diagonal lively bouquet fills the frame, petals and stems cropped boldly at the edges, saturated fuchsia, tangerine and leaf green. Strong polished studio flash and crisp organic textures, high-end art direction for a contemporary beauty or cultural brand. Real tangible flowers, no illustration, no UI, no text, no lettering, no logo, no watermark, no abstract geometric forms."
+    },
+    {
+      "theme": "rivage",
+      "source": "themes/rivage/assets/hero-source.png",
+      "rendered": "themes/rivage/assets/hero.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: photographic hero panel for an energetic travel/lifestyle identity-theme website, portrait 4:5. Primary request: a sun-drenched, high-end aerial editorial photograph of a small Mediterranean beach, transparent intensely turquoise water washing onto golden sand, two vivid orange beach parasols, one cobalt beach towel and a yellow towel, a tiny trace of sea foam. Graphic bird's-eye composition with diagonal shoreline, rich optimistic colors, believable sand texture and water caustics, crisp summer light, sophisticated travel advertising photography. Full bleed scene, no people, no UI, no text, no lettering, no logos, no watermark, no abstract decorative shapes."
+    }
+  ]
+}

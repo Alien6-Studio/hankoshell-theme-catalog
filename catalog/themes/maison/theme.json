@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "maison",
+  "headline": "Haven",
+  "subline": "A welcome with character.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#faf7f0",
+      "foreground": "#3b362e",
+      "primary": "#a84031",
+      "primaryForeground": "#ffffff",
+      "card": "#fffdfa",
+      "muted": "#776755",
+      "input": "#fffdfa",
+      "border": "#cecbc7"
+    },
+    "dark": {
+      "background": "#faf7f0",
+      "foreground": "#3b362e",
+      "primary": "#a84031",
+      "primaryForeground": "#ffffff",
+      "card": "#fffdfa",
+      "muted": "#776755",
+      "input": "#fffdfa",
+      "border": "#cecbc7"
+    }
+  },
+  "layout": {
+    "cardRadius": "4px",
+    "controlRadius": "4px",
+    "contentWidth": "460px"
+  }
+}

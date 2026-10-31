@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "bloom",
+  "headline": "Bloom",
+  "subline": "An identity in bloom.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#fff1f6",
+      "foreground": "#4c1836",
+      "primary": "#bc1e67",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#87576f",
+      "input": "#ffffff",
+      "border": "#cdbec7"
+    },
+    "dark": {
+      "background": "#fff1f6",
+      "foreground": "#4c1836",
+      "primary": "#bc1e67",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#87576f",
+      "input": "#ffffff",
+      "border": "#cdbec7"
+    }
+  },
+  "layout": {
+    "cardRadius": "24px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}

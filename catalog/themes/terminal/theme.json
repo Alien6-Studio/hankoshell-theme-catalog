@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "terminal",
+  "headline": "Terminal",
+  "subline": "The essentials. Precisely.",
+  "fontFamily": "Arial, sans-serif",
+  "colors": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#161616",
+      "primary": "#171717",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#686868",
+      "input": "#ffffff",
+      "border": "#c5c5c5"
+    },
+    "dark": {
+      "background": "#ffffff",
+      "foreground": "#161616",
+      "primary": "#171717",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#686868",
+      "input": "#ffffff",
+      "border": "#c5c5c5"
+    }
+  },
+  "layout": {
+    "cardRadius": "5px",
+    "controlRadius": "5px",
+    "contentWidth": "460px"
+  }
+}

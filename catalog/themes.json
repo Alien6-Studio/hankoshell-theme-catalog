@@ -1,0 +1,4353 @@
+{
+  "format": "hanko.theme-catalog/v1",
+  "version": "0.1.0",
+  "status": "released",
+  "themes": [
+    {
+      "id": "evidence",
+      "version": "0.1.0",
+      "name": "Clarity",
+      "description": "A bright, spacious interface with plain language and one clear decision at each step. Everyday account tasks feel familiar and easy to find.",
+      "license": "Apache-2.0",
+      "tags": [
+        "essential",
+        "Services",
+        "Consumer products",
+        "Institutions"
+      ],
+      "style": {
+        "id": "evidence",
+        "name": "Clarity",
+        "description": "A bright, spacious interface with plain language and one clear decision at each step. Everyday account tasks feel familiar and easy to find.",
+        "accent": "#245dda",
+        "background": "#f5f7fb",
+        "surface": "#ffffff",
+        "foreground": "#1c283b",
+        "muted": "#58677d",
+        "radius": 12,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "evidence",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/evidence/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/evidence/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/evidence/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/evidence/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/evidence/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/evidence/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/evidence/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/evidence/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/evidence/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/evidence/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/evidence/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/evidence/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/evidence/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/evidence/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/evidence/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/evidence/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/evidence/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/evidence/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/evidence/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "01",
+        "family": "essential",
+        "title": "Clarity comes naturally.",
+        "audience": "Services · Consumer products · Institutions",
+        "details": [
+          "A focused sign-in flow with room to breathe.",
+          "Horizontal account navigation and settings grouped around everyday tasks.",
+          "Confident blue accents, generous spacing and understated sans-serif typography.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Google — sign-in",
+            "url": "https://accounts.google.com/"
+          },
+          {
+            "label": "Apple — official website",
+            "url": "https://www.apple.com/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "precision",
+      "version": "0.1.0",
+      "name": "Precision",
+      "description": "A considered product interface with a precise grid, measured contrast and compact controls. Clear hierarchy keeps complex account settings manageable.",
+      "license": "Apache-2.0",
+      "tags": [
+        "product",
+        "SaaS",
+        "Teams",
+        "Professional tools"
+      ],
+      "style": {
+        "id": "precision",
+        "name": "Precision",
+        "description": "A considered product interface with a precise grid, measured contrast and compact controls. Clear hierarchy keeps complex account settings manageable.",
+        "accent": "#b5b5f9",
+        "background": "#17181c",
+        "surface": "#1f2026",
+        "foreground": "#ededf1",
+        "muted": "#a7a7b3",
+        "radius": 6,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "precision",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/precision/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/precision/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/precision/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/precision/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/precision/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/precision/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/precision/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/precision/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/precision/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/precision/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/precision/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/precision/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/precision/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/precision/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/precision/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/precision/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/precision/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/precision/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/precision/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "02",
+        "family": "product",
+        "title": "Focus, built in.",
+        "audience": "SaaS · Teams · Professional tools",
+        "details": [
+          "A structured account workspace with compact sidebar navigation.",
+          "Ink-dark surfaces, fine borders and a periwinkle accent.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Linear — product interface",
+            "url": "https://linear.app/"
+          },
+          {
+            "label": "Stripe — sign-in",
+            "url": "https://dashboard.stripe.com/login"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "maison",
+      "version": "0.1.0",
+      "name": "Haven",
+      "description": "Warm architectural photography, cream surfaces and expressive serif typography create a personal welcome. The editorial identity carries through every account service.",
+      "license": "Apache-2.0",
+      "tags": [
+        "editorial",
+        "Hospitality",
+        "Lifestyle",
+        "Service brands"
+      ],
+      "style": {
+        "id": "maison",
+        "name": "Haven",
+        "description": "Warm architectural photography, cream surfaces and expressive serif typography create a personal welcome. The editorial identity carries through every account service.",
+        "accent": "#a84031",
+        "background": "#faf7f0",
+        "surface": "#fffdfa",
+        "foreground": "#3b362e",
+        "muted": "#776755",
+        "radius": 4,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "maison",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/maison/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/maison/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/maison/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/maison/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/maison/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/maison/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/maison/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/maison/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/maison/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/maison/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/maison/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/maison/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/maison/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/maison/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/maison/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/maison/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/maison/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/maison/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/maison/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/maison/assets/hero.jpg",
+          "source": "themes/maison/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "4f0f9c1d334b5dd22247387b3427bb39da178c73c378944eb214fdbd13c7b829"
+        }
+      ],
+      "design": {
+        "number": "03",
+        "family": "editorial",
+        "title": "A welcome with character.",
+        "audience": "Hospitality · Lifestyle · Service brands",
+        "details": [
+          "An editorial headline paired with a comfortably sized form.",
+          "Account settings presented as services with clear, direct actions.",
+          "Warm cream, terracotta red and expressive serif typography.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [
+          {
+            "label": "Airbnb — sign-in and registration",
+            "url": "https://www.airbnb.com/login"
+          },
+          {
+            "label": "Apple — hierarchy and rhythm",
+            "url": "https://www.apple.com/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "signal",
+      "version": "0.1.0",
+      "name": "Signal",
+      "description": "A direct identity built around bold typography, acid green and deep black. Short journeys and confident actions keep the same energy across every screen.",
+      "license": "Apache-2.0",
+      "tags": [
+        "expressive",
+        "Culture",
+        "Media",
+        "Communities"
+      ],
+      "style": {
+        "id": "signal",
+        "name": "Signal",
+        "description": "A direct identity built around bold typography, acid green and deep black. Short journeys and confident actions keep the same energy across every screen.",
+        "accent": "#c4f25c",
+        "background": "#141414",
+        "surface": "#1d1e19",
+        "foreground": "#f8f8f3",
+        "muted": "#a9ad9e",
+        "radius": 28,
+        "layout": "center",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "signal",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/signal/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/signal/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/signal/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/signal/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/signal/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/signal/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/signal/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/signal/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/signal/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/signal/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/signal/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/signal/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/signal/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/signal/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/signal/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/signal/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/signal/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/signal/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/signal/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "04",
+        "family": "expressive",
+        "title": "Made to stand out.",
+        "audience": "Culture · Media · Communities",
+        "details": [
+          "A centred sign-in screen with an immediately recognisable hierarchy.",
+          "Large headings and crisp lists give the account area a direct, confident voice.",
+          "Deep black, acid green and prominent action buttons.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Spotify — sign-in",
+            "url": "https://accounts.spotify.com/en/login"
+          },
+          {
+            "label": "Linear — contrast and density",
+            "url": "https://linear.app/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "civique",
+      "version": "0.1.0",
+      "name": "Civic",
+      "description": "A service-first interface with explicit steps, useful guidance and an unmistakable primary action. Information stays clear, practical and easy to scan.",
+      "license": "Apache-2.0",
+      "tags": [
+        "essential",
+        "Public services",
+        "Education",
+        "Nonprofits"
+      ],
+      "style": {
+        "id": "civique",
+        "name": "Civic",
+        "description": "A service-first interface with explicit steps, useful guidance and an unmistakable primary action. Information stays clear, practical and easy to scan.",
+        "accent": "#1a538a",
+        "background": "#ffffff",
+        "surface": "#ffffff",
+        "foreground": "#172b43",
+        "muted": "#596c80",
+        "radius": 0,
+        "layout": "left",
+        "font": "Arial, sans-serif",
+        "headingFont": "Arial, sans-serif",
+        "density": "comfortable",
+        "composition": "civique",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/civique/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/civique/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/civique/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/civique/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/civique/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/civique/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/civique/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/civique/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/civique/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/civique/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/civique/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/civique/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/civique/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/civique/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/civique/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/civique/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/civique/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/civique/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/civique/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "05",
+        "family": "essential",
+        "title": "Clear access. For everyone.",
+        "audience": "Public services · Education · Nonprofits",
+        "details": [
+          "A service banner and a numbered journey from identification to verification and access.",
+          "Visible labels, rectangular controls and help beside the form.",
+          "Account settings organised as practical lists.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "GOV.UK — service hierarchy",
+            "url": "https://www.gov.uk/"
+          },
+          {
+            "label": "Google — progressive sign-in",
+            "url": "https://accounts.google.com/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "edition",
+      "version": "0.1.0",
+      "name": "Edition",
+      "description": "Oversized typography, newspaper-inspired grids and strong rules put content first. An editorial direction designed around a lasting relationship with readers.",
+      "license": "Apache-2.0",
+      "tags": [
+        "editorial",
+        "Publishing",
+        "Culture",
+        "Editorial brands"
+      ],
+      "style": {
+        "id": "edition",
+        "name": "Edition",
+        "description": "Oversized typography, newspaper-inspired grids and strong rules put content first. An editorial direction designed around a lasting relationship with readers.",
+        "accent": "#8c2a3e",
+        "background": "#fffdf8",
+        "surface": "#fffdf8",
+        "foreground": "#272b3e",
+        "muted": "#656575",
+        "radius": 0,
+        "layout": "left",
+        "font": "Arial, sans-serif",
+        "headingFont": "Georgia, serif",
+        "density": "comfortable",
+        "composition": "edition",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/edition/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/edition/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/edition/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/edition/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/edition/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/edition/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/edition/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/edition/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/edition/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/edition/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/edition/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/edition/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/edition/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/edition/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/edition/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/edition/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/edition/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/edition/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/edition/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "06",
+        "family": "editorial",
+        "title": "An identity worth reading.",
+        "audience": "Publishing · Culture · Editorial brands",
+        "details": [
+          "A prominent masthead and an opening section with editorial structure.",
+          "A form framed by an introduction and a concise index of services.",
+          "A two-column account layout for personal details and quick access.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "The Guardian — grids and headlines",
+            "url": "https://www.theguardian.com/international"
+          },
+          {
+            "label": "Apple — hierarchy",
+            "url": "https://www.apple.com/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "rituel",
+      "version": "0.1.0",
+      "name": "Ritual",
+      "description": "Soft green photography, welcoming surfaces and a thoughtful tone make routine account tasks feel calm. A spacious form remains the centre of the experience.",
+      "license": "Apache-2.0",
+      "tags": [
+        "warm",
+        "Wellness",
+        "Care",
+        "Personal services"
+      ],
+      "style": {
+        "id": "rituel",
+        "name": "Ritual",
+        "description": "Soft green photography, welcoming surfaces and a thoughtful tone make routine account tasks feel calm. A spacious form remains the centre of the experience.",
+        "accent": "#416a51",
+        "background": "#f6f8f0",
+        "surface": "#fffef9",
+        "foreground": "#334b3c",
+        "muted": "#637562",
+        "radius": 20,
+        "layout": "center",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "rituel",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/rituel/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/rituel/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/rituel/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/rituel/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/rituel/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/rituel/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/rituel/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/rituel/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/rituel/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/rituel/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/rituel/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/rituel/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/rituel/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/rituel/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/rituel/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/rituel/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/rituel/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/rituel/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/rituel/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/rituel/assets/hero.jpg",
+          "source": "themes/rituel/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "6608f9a78a5c9a75e7efea638a7e5941880f05ea3c0a89fbc2153fac72417f79"
+        }
+      ],
+      "design": {
+        "number": "07",
+        "family": "warm",
+        "title": "Make yourself at home.",
+        "audience": "Wellness · Care · Personal services",
+        "details": [
+          "A centred welcome, a spacious form and a quiet sense of progression.",
+          "Account settings grouped within generous, rounded surfaces.",
+          "Sage, ivory and gentle typography with reassuring actions.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [
+          {
+            "label": "Headspace — welcome and services",
+            "url": "https://www.headspace.com/"
+          },
+          {
+            "label": "Airbnb — tone and familiarity",
+            "url": "https://www.airbnb.com/login"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "terminal",
+      "version": "0.1.0",
+      "name": "Terminal",
+      "description": "A monochrome technical interface where grids, states and clear labels define the identity. Dense information stays legible and carefully organised.",
+      "license": "Apache-2.0",
+      "tags": [
+        "product",
+        "Developers",
+        "Infrastructure",
+        "Tools"
+      ],
+      "style": {
+        "id": "terminal",
+        "name": "Terminal",
+        "description": "A monochrome technical interface where grids, states and clear labels define the identity. Dense information stays legible and carefully organised.",
+        "accent": "#171717",
+        "background": "#ffffff",
+        "surface": "#ffffff",
+        "foreground": "#161616",
+        "muted": "#686868",
+        "radius": 5,
+        "layout": "right",
+        "font": "Arial, sans-serif",
+        "headingFont": "Arial, sans-serif",
+        "density": "comfortable",
+        "composition": "terminal",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/terminal/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/terminal/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/terminal/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/terminal/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/terminal/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/terminal/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/terminal/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/terminal/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/terminal/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/terminal/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/terminal/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/terminal/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/terminal/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/terminal/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/terminal/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/terminal/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/terminal/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/terminal/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/terminal/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "08",
+        "family": "product",
+        "title": "The essentials. Precisely.",
+        "audience": "Developers · Infrastructure · Tools",
+        "details": [
+          "A self-contained form supported by a useful context panel.",
+          "Monospace metadata, crisp outlines and a clear product hierarchy.",
+          "Compact settings and shortcuts arranged as practical tool rows.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Vercel — sign-in",
+            "url": "https://vercel.com/login"
+          },
+          {
+            "label": "GitHub — account and sign-in methods",
+            "url": "https://github.com/login"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "comptoir",
+      "version": "0.1.0",
+      "name": "Counter",
+      "description": "An inviting shopfront identity with tactile ceramics, terracotta accents and practical account services. Clear forms and member details make returning feel effortless.",
+      "license": "Apache-2.0",
+      "tags": [
+        "warm",
+        "Commerce",
+        "Craft",
+        "Local brands"
+      ],
+      "style": {
+        "id": "comptoir",
+        "name": "Counter",
+        "description": "An inviting shopfront identity with tactile ceramics, terracotta accents and practical account services. Clear forms and member details make returning feel effortless.",
+        "accent": "#b54d28",
+        "background": "#fffdf9",
+        "surface": "#fffdf9",
+        "foreground": "#403226",
+        "muted": "#7f6b58",
+        "radius": 7,
+        "layout": "right",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "comptoir",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/comptoir/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/comptoir/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/comptoir/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/comptoir/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/comptoir/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/comptoir/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/comptoir/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/comptoir/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/comptoir/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/comptoir/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/comptoir/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/comptoir/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/comptoir/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/comptoir/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/comptoir/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/comptoir/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/comptoir/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/comptoir/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/comptoir/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/comptoir/assets/hero.jpg",
+          "source": "themes/comptoir/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "69063c5b74f76bfc2616b477155b933362731e629012feb5b2927f7674b63193"
+        }
+      ],
+      "design": {
+        "number": "09",
+        "family": "warm",
+        "title": "Good to have you back.",
+        "audience": "Commerce · Craft · Local brands",
+        "details": [
+          "Checkout-like clarity with a concise overview of member services.",
+          "A form on the left, a brand welcome on the right and a structured customer profile.",
+          "Member details, information lists and actions that are easy to find.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [
+          {
+            "label": "Shopify — commerce and user journeys",
+            "url": "https://www.shopify.com/"
+          },
+          {
+            "label": "Airbnb — welcome",
+            "url": "https://www.airbnb.com/login"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "mouvement",
+      "version": "0.1.0",
+      "name": "Momentum",
+      "description": "Dynamic sports photography, condensed headlines and electric blue create a bold first impression. The account area keeps the same pace and strong hierarchy.",
+      "license": "Apache-2.0",
+      "tags": [
+        "expressive",
+        "Sport",
+        "Events",
+        "Active communities"
+      ],
+      "style": {
+        "id": "mouvement",
+        "name": "Momentum",
+        "description": "Dynamic sports photography, condensed headlines and electric blue create a bold first impression. The account area keeps the same pace and strong hierarchy.",
+        "accent": "#304cea",
+        "background": "#ffffff",
+        "surface": "#ffffff",
+        "foreground": "#171b31",
+        "muted": "#656b85",
+        "radius": 2,
+        "layout": "right",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "Impact, sans-serif",
+        "density": "comfortable",
+        "composition": "mouvement",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/mouvement/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/mouvement/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/mouvement/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/mouvement/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/mouvement/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/mouvement/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/mouvement/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/mouvement/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/mouvement/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/mouvement/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/mouvement/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/mouvement/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/mouvement/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/mouvement/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/mouvement/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/mouvement/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/mouvement/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/mouvement/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/mouvement/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/mouvement/assets/hero.jpg",
+          "source": "themes/mouvement/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "5dfc059730adf576a18c99cba65d5dd15d5a19d806fa046614617f3a135f2911"
+        }
+      ],
+      "design": {
+        "number": "10",
+        "family": "expressive",
+        "title": "Start with momentum.",
+        "audience": "Sport · Events · Active communities",
+        "details": [
+          "An inverted composition with access on the left and a brand statement on the right.",
+          "Condensed headlines, confident buttons and concise signposts.",
+          "A strongly structured account area that carries the energy of the sign-in screen.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [
+          {
+            "label": "Nike — rhythm and headlines",
+            "url": "https://www.nike.com/fr/"
+          },
+          {
+            "label": "Spotify — primary action",
+            "url": "https://accounts.spotify.com/en/login"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "folio",
+      "version": "0.1.0",
+      "name": "Folio",
+      "description": "A creative studio identity with a distinctive brand rail, oversized headings and an offset two-column layout. Confident colours give every component its own presence.",
+      "license": "Apache-2.0",
+      "tags": [
+        "expressive",
+        "Design",
+        "Creative work",
+        "Studios"
+      ],
+      "style": {
+        "id": "folio",
+        "name": "Folio",
+        "description": "A creative studio identity with a distinctive brand rail, oversized headings and an offset two-column layout. Confident colours give every component its own presence.",
+        "accent": "#6a3c91",
+        "background": "#fff8d8",
+        "surface": "#fffdf3",
+        "foreground": "#402951",
+        "muted": "#7f648c",
+        "radius": 0,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "folio",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/folio/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/folio/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/folio/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/folio/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/folio/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/folio/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/folio/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/folio/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/folio/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/folio/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/folio/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/folio/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/folio/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/folio/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/folio/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/folio/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/folio/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/folio/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/folio/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "11",
+        "family": "expressive",
+        "title": "Room for ideas.",
+        "audience": "Design · Creative work · Studios",
+        "details": [
+          "A violet brand rail, a pale yellow canvas and a studio-inspired composition.",
+          "Asymmetric account modules with a visible identity in every component.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Figma — composition and character",
+            "url": "https://www.figma.com/"
+          },
+          {
+            "label": "Linear — component consistency",
+            "url": "https://linear.app/"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "patrimoine",
+      "version": "0.1.0",
+      "name": "Heritage",
+      "description": "Deep green, ivory and classical typography set a composed tone. Restrained layouts give personal information and quality of service room to stand out.",
+      "license": "Apache-2.0",
+      "tags": [
+        "editorial",
+        "Hotels",
+        "Heritage",
+        "Premium brands"
+      ],
+      "style": {
+        "id": "patrimoine",
+        "name": "Heritage",
+        "description": "Deep green, ivory and classical typography set a composed tone. Restrained layouts give personal information and quality of service room to stand out.",
+        "accent": "#365e50",
+        "background": "#173e32",
+        "surface": "#fbf8ef",
+        "foreground": "#fbf8ef",
+        "muted": "#b6c4b7",
+        "radius": 1,
+        "layout": "center",
+        "font": "Arial, sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "patrimoine",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/patrimoine/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/patrimoine/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/patrimoine/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/patrimoine/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/patrimoine/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/patrimoine/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/patrimoine/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/patrimoine/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/patrimoine/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/patrimoine/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/patrimoine/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/patrimoine/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/patrimoine/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/patrimoine/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/patrimoine/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/patrimoine/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/patrimoine/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/patrimoine/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/patrimoine/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [],
+      "design": {
+        "number": "12",
+        "family": "editorial",
+        "title": "Quietly distinctive.",
+        "audience": "Hotels · Heritage · Premium brands",
+        "details": [
+          "A centred sign-in screen on deep green with an ivory form.",
+          "Sidebar navigation, restrained account layouts and service rows.",
+          "Classical proportions and subtle brass accents.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
+        ],
+        "sources": [
+          {
+            "label": "Apple — restraint and hierarchy",
+            "url": "https://www.apple.com/"
+          },
+          {
+            "label": "The Guardian — editorial typography",
+            "url": "https://www.theguardian.com/international"
+          }
+        ],
+        "introduced": false
+      }
+    },
+    {
+      "id": "zeste",
+      "version": "0.1.0",
+      "name": "Zest",
+      "description": "Juicy citrus photography meets electric blue and vivid orange. A bright, sunlit identity brings a fresh burst of energy to the sign-in experience.",
+      "license": "Apache-2.0",
+      "tags": [
+        "vibrant",
+        "photography",
+        "Food",
+        "Playful brands",
+        "Creative services"
+      ],
+      "style": {
+        "id": "zeste",
+        "name": "Zest",
+        "description": "Juicy citrus photography meets electric blue and vivid orange. A bright, sunlit identity brings a fresh burst of energy to the sign-in experience.",
+        "accent": "#d34317",
+        "background": "#fff8ed",
+        "surface": "#fffefa",
+        "foreground": "#322719",
+        "muted": "#74614f",
+        "radius": 10,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "zeste",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/zeste/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/zeste/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/zeste/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/zeste/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/zeste/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/zeste/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/zeste/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/zeste/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/zeste/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/zeste/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/zeste/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/zeste/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/zeste/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/zeste/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/zeste/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/zeste/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/zeste/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/zeste/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/zeste/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/zeste/assets/hero.jpg",
+          "source": "themes/zeste/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "b6c270961b2b18de09373b1a82cf626367b4813509a9490e415615d0a0a87d23"
+        }
+      ],
+      "design": {
+        "number": "13",
+        "family": "vibrant",
+        "title": "A fresh burst of colour.",
+        "audience": "Food · Playful brands · Creative services",
+        "details": [
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [],
+        "introduced": true
+      }
+    },
+    {
+      "id": "parade",
+      "version": "0.1.0",
+      "name": "Parade",
+      "description": "Expressive dance photography, coral and violet bring movement to a direct typographic layout. A lively welcome for brands that bring people together.",
+      "license": "Apache-2.0",
+      "tags": [
+        "vibrant",
+        "photography",
+        "Culture",
+        "Events",
+        "Communities"
+      ],
+      "style": {
+        "id": "parade",
+        "name": "Parade",
+        "description": "Expressive dance photography, coral and violet bring movement to a direct typographic layout. A lively welcome for brands that bring people together.",
+        "accent": "#5126c6",
+        "background": "#fee5ed",
+        "surface": "#fff9fc",
+        "foreground": "#30133f",
+        "muted": "#755168",
+        "radius": 6,
+        "layout": "right",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "parade",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/parade/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/parade/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/parade/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/parade/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/parade/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/parade/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/parade/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/parade/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/parade/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/parade/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/parade/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/parade/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/parade/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/parade/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/parade/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/parade/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/parade/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/parade/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/parade/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/parade/assets/hero.jpg",
+          "source": "themes/parade/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "41d992d8a6385e161fe223e9cedfce466b5112b29c6e666a89f0221b46a8f9b7"
+        }
+      ],
+      "design": {
+        "number": "14",
+        "family": "vibrant",
+        "title": "Good energy travels.",
+        "audience": "Culture · Events · Communities",
+        "details": [
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [],
+        "introduced": true
+      }
+    },
+    {
+      "id": "bloom",
+      "version": "0.1.0",
+      "name": "Bloom",
+      "description": "Fuchsia and orange flowers, ultramarine details and luminous pink surfaces create an expressive, organic identity with editorial typography.",
+      "license": "Apache-2.0",
+      "tags": [
+        "vibrant",
+        "photography",
+        "Beauty",
+        "Lifestyle",
+        "Independent brands"
+      ],
+      "style": {
+        "id": "bloom",
+        "name": "Bloom",
+        "description": "Fuchsia and orange flowers, ultramarine details and luminous pink surfaces create an expressive, organic identity with editorial typography.",
+        "accent": "#bc1e67",
+        "background": "#fff1f6",
+        "surface": "#ffffff",
+        "foreground": "#4c1836",
+        "muted": "#87576f",
+        "radius": 24,
+        "layout": "left",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Editorial\", Georgia, serif",
+        "density": "comfortable",
+        "composition": "bloom",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/bloom/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/bloom/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/bloom/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/bloom/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/bloom/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/bloom/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/bloom/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/bloom/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/bloom/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/bloom/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/bloom/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/bloom/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/bloom/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/bloom/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/bloom/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/bloom/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/bloom/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/bloom/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/bloom/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/bloom/assets/hero.jpg",
+          "source": "themes/bloom/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "ab4fe59fac5ebefeb2e8e8500a735f07f02d77922932f7bc41105b68a81bfd54"
+        }
+      ],
+      "design": {
+        "number": "15",
+        "family": "vibrant",
+        "title": "An identity in bloom.",
+        "audience": "Beauty · Lifestyle · Independent brands",
+        "details": [
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [],
+        "introduced": true
+      }
+    },
+    {
+      "id": "rivage",
+      "version": "0.1.0",
+      "name": "Shore",
+      "description": "An aerial turquoise shoreline, orange parasols and light surfaces create an open, vivid identity. A clear form gives the photography room to breathe.",
+      "license": "Apache-2.0",
+      "tags": [
+        "vibrant",
+        "photography",
+        "Travel",
+        "Leisure",
+        "Everyday services"
+      ],
+      "style": {
+        "id": "rivage",
+        "name": "Shore",
+        "description": "An aerial turquoise shoreline, orange parasols and light surfaces create an open, vivid identity. A clear form gives the photography room to breathe.",
+        "accent": "#006f83",
+        "background": "#ecfbfc",
+        "surface": "#ffffff",
+        "foreground": "#123e4b",
+        "muted": "#426d78",
+        "radius": 12,
+        "layout": "right",
+        "font": "\"Hanko Sans\", sans-serif",
+        "headingFont": "\"Hanko Sans\", sans-serif",
+        "density": "comfortable",
+        "composition": "rivage",
+        "fieldStyle": "outline",
+        "actionSize": "full"
+      },
+      "themePath": "themes/rivage/theme.json",
+      "templates": [
+        {
+          "id": "login",
+          "name": "Sign in",
+          "surface": "keycloak-login",
+          "editorPage": "login:0",
+          "path": "themes/rivage/pages/login.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "register",
+          "name": "Registration",
+          "surface": "keycloak-login",
+          "editorPage": "login:1",
+          "path": "themes/rivage/pages/register.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "otp",
+          "name": "Verification code",
+          "surface": "keycloak-login",
+          "editorPage": "login:2",
+          "path": "themes/rivage/pages/otp.json",
+          "targets": [
+            "project-json",
+            "native-appearance",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-verification",
+          "name": "Verify email",
+          "surface": "keycloak-email",
+          "editorPage": "email:0",
+          "path": "themes/rivage/pages/email-verification.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-password-reset",
+          "name": "Email Password Reset",
+          "surface": "keycloak-email",
+          "editorPage": "email:1",
+          "path": "themes/rivage/pages/email-password-reset.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "email-required-actions",
+          "name": "Email Required Actions",
+          "surface": "keycloak-email",
+          "editorPage": "email:2",
+          "path": "themes/rivage/pages/email-required-actions.json",
+          "targets": [
+            "project-json",
+            "native-composition"
+          ]
+        },
+        {
+          "id": "account-profile",
+          "name": "Profile",
+          "surface": "keycloak-account",
+          "editorPage": "account:0",
+          "path": "themes/rivage/pages/account-profile.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-security",
+          "name": "Security",
+          "surface": "keycloak-account",
+          "editorPage": "account:1",
+          "path": "themes/rivage/pages/account-security.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-password",
+          "name": "Password",
+          "surface": "keycloak-account",
+          "editorPage": "account:2",
+          "path": "themes/rivage/pages/account-password.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-mfa",
+          "name": "Account Mfa",
+          "surface": "keycloak-account",
+          "editorPage": "account:3",
+          "path": "themes/rivage/pages/account-mfa.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "account-sessions",
+          "name": "Sessions",
+          "surface": "keycloak-account",
+          "editorPage": "account:4",
+          "path": "themes/rivage/pages/account-sessions.json",
+          "targets": [
+            "project-json",
+            "react-next"
+          ]
+        },
+        {
+          "id": "admin-console",
+          "name": "Administration",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:0",
+          "path": "themes/rivage/pages/admin-console.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-users",
+          "name": "Users",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:1",
+          "path": "themes/rivage/pages/admin-users.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-user",
+          "name": "User details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:2",
+          "path": "themes/rivage/pages/admin-user.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-clients",
+          "name": "Applications",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:3",
+          "path": "themes/rivage/pages/admin-clients.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-client",
+          "name": "Application details",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:4",
+          "path": "themes/rivage/pages/admin-client.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "admin-permissions",
+          "name": "Permissions",
+          "surface": "keycloak-admin",
+          "editorPage": "admin:5",
+          "path": "themes/rivage/pages/admin-permissions.json",
+          "targets": [
+            "project-json"
+          ]
+        },
+        {
+          "id": "welcome",
+          "name": "Welcome",
+          "surface": "keycloak-welcome",
+          "editorPage": "welcome:0",
+          "path": "themes/rivage/pages/welcome.json",
+          "targets": [
+            "project-json"
+          ]
+        }
+      ],
+      "locales": [
+        "fr",
+        "en",
+        "es",
+        "de",
+        "it",
+        "pt-BR",
+        "ar",
+        "he"
+      ],
+      "complete": true,
+      "assets": [
+        {
+          "path": "themes/rivage/assets/hero.jpg",
+          "source": "themes/rivage/assets/hero-source.png",
+          "license": "Apache-2.0",
+          "sha256": "0e481407de79d653fa24a3b5b8a6d14ff86fd4bc8b1e9c86d6b1647f5b6574f1"
+        }
+      ],
+      "design": {
+        "number": "16",
+        "family": "vibrant",
+        "title": "A little room to escape.",
+        "audience": "Travel · Leisure · Everyday services",
+        "details": [
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
+        ],
+        "sources": [],
+        "introduced": true
+      }
+    }
+  ],
+  "locales": [
+    "fr",
+    "en",
+    "es",
+    "de",
+    "it",
+    "pt-BR",
+    "ar",
+    "he"
+  ],
+  "translationsPath": "translations.json",
+  "sections": [
+    {
+      "id": "welcome-banner",
+      "name": "Welcome banner",
+      "description": "A heading and introduction for the page header.",
+      "blocks": [
+        {
+          "id": "section-title",
+          "type": "heading",
+          "zone": "header",
+          "text": "Votre espace personnel",
+          "alt": "",
+          "align": "left"
+        },
+        {
+          "id": "section-intro",
+          "type": "text",
+          "zone": "header",
+          "text": "Une identité, tous vos services.",
+          "alt": "",
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "id": "help-panel",
+      "name": "Sign-in help",
+      "description": "Help text and a link to account security.",
+      "blocks": [
+        {
+          "id": "section-help-title",
+          "type": "heading",
+          "zone": "aside",
+          "text": "Protégez votre compte",
+          "alt": "",
+          "align": "left"
+        },
+        {
+          "id": "section-help-link",
+          "type": "button",
+          "zone": "aside",
+          "text": "Votre sécurité",
+          "alt": "",
+          "align": "left",
+          "href": "#account-1"
+        }
+      ]
+    },
+    {
+      "id": "legal-footer",
+      "name": "Minimal footer",
+      "description": "A divider and brand signature.",
+      "blocks": [
+        {
+          "id": "section-divider",
+          "type": "divider",
+          "zone": "footer",
+          "text": "",
+          "alt": "",
+          "align": "left"
+        },
+        {
+          "id": "section-signature",
+          "type": "text",
+          "zone": "footer",
+          "text": "Une identité, tous vos services.",
+          "alt": "",
+          "align": "left"
+        }
+      ]
+    },
+    {
+      "id": "security-links",
+      "name": "Security shortcuts",
+      "description": "Links to password and two-factor authentication settings.",
+      "blocks": [
+        {
+          "id": "section-password",
+          "type": "button",
+          "zone": "aside",
+          "text": "Modifier le mot de passe",
+          "alt": "",
+          "align": "left",
+          "href": "#account-2"
+        },
+        {
+          "id": "section-mfa",
+          "type": "button",
+          "zone": "aside",
+          "text": "Configurer le MFA",
+          "alt": "",
+          "align": "left",
+          "href": "#account-3"
+        }
+      ]
+    }
+  ]
+}

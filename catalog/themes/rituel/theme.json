@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "rituel",
+  "headline": "Ritual",
+  "subline": "Make yourself at home.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#f6f8f0",
+      "foreground": "#334b3c",
+      "primary": "#416a51",
+      "primaryForeground": "#ffffff",
+      "card": "#fffef9",
+      "muted": "#637562",
+      "input": "#fffef9",
+      "border": "#ccd1ca"
+    },
+    "dark": {
+      "background": "#f6f8f0",
+      "foreground": "#334b3c",
+      "primary": "#416a51",
+      "primaryForeground": "#ffffff",
+      "card": "#fffef9",
+      "muted": "#637562",
+      "input": "#fffef9",
+      "border": "#ccd1ca"
+    }
+  },
+  "layout": {
+    "cardRadius": "20px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}

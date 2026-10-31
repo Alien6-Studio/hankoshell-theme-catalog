@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "rivage",
+  "headline": "Shore",
+  "subline": "A little room to escape.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#ecfbfc",
+      "foreground": "#123e4b",
+      "primary": "#006f83",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#426d78",
+      "input": "#ffffff",
+      "border": "#bdc9cd"
+    },
+    "dark": {
+      "background": "#ecfbfc",
+      "foreground": "#123e4b",
+      "primary": "#006f83",
+      "primaryForeground": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#426d78",
+      "input": "#ffffff",
+      "border": "#bdc9cd"
+    }
+  },
+  "layout": {
+    "cardRadius": "12px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}

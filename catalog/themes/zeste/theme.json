@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "zeste",
+  "headline": "Zest",
+  "subline": "A fresh burst of colour.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#fff8ed",
+      "foreground": "#322719",
+      "primary": "#d34317",
+      "primaryForeground": "#ffffff",
+      "card": "#fffefa",
+      "muted": "#74614f",
+      "input": "#fffefa",
+      "border": "#c6c2bb"
+    },
+    "dark": {
+      "background": "#fff8ed",
+      "foreground": "#322719",
+      "primary": "#d34317",
+      "primaryForeground": "#ffffff",
+      "card": "#fffefa",
+      "muted": "#74614f",
+      "input": "#fffefa",
+      "border": "#c6c2bb"
+    }
+  },
+  "layout": {
+    "cardRadius": "10px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}

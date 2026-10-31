@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "precision",
+  "headline": "Precision",
+  "subline": "Focus, built in.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#17181c",
+      "foreground": "#ededf1",
+      "primary": "#b5b5f9",
+      "primaryForeground": "#000000",
+      "card": "#1f2026",
+      "muted": "#a7a7b3",
+      "input": "#1f2026",
+      "border": "#535359"
+    },
+    "dark": {
+      "background": "#17181c",
+      "foreground": "#ededf1",
+      "primary": "#b5b5f9",
+      "primaryForeground": "#000000",
+      "card": "#1f2026",
+      "muted": "#a7a7b3",
+      "input": "#1f2026",
+      "border": "#535359"
+    }
+  },
+  "layout": {
+    "cardRadius": "6px",
+    "controlRadius": "6px",
+    "contentWidth": "460px"
+  }
+}

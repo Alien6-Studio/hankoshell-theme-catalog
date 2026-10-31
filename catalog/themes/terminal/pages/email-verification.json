@@ -1,0 +1,479 @@
+{
+  "blocks": [
+    {
+      "id": "terminal-section-label",
+      "type": "text",
+      "zone": "header",
+      "text": "UN MESSAGE POUR VOUS",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 9,
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "color": "#686868"
+      }
+    },
+    {
+      "id": "terminal-footer",
+      "type": "text",
+      "zone": "footer",
+      "text": "© Aurora · Confidentialité et conditions",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 10,
+        "lineHeight": 1.6,
+        "color": "#686868"
+      }
+    },
+    {
+      "id": "terminal-email-title",
+      "type": "heading",
+      "zone": "header",
+      "text": "Un accès. Tous vos outils.",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400,
+        "lineHeight": 1.2,
+        "color": "#161616"
+      }
+    },
+    {
+      "id": "terminal-email-body",
+      "type": "text",
+      "zone": "aside",
+      "text": "Bonjour {{prénom}},\nConfirmez votre adresse pour accéder à votre espace Aurora.",
+      "alt": "",
+      "align": "left",
+      "style": {
+        "fontSize": 14,
+        "lineHeight": 1.7
+      }
+    }
+  ],
+  "preset": "terminal",
+  "layout": "center",
+  "subject": "Confirmez votre adresse Aurora",
+  "radius": 5,
+  "accent": "#171717",
+  "brand": {
+    "name": "aurora.",
+    "mark": "",
+    "alt": "Logo Aurora",
+    "size": 28,
+    "fontSize": 31,
+    "align": "left",
+    "color": "#161616"
+  },
+  "appearance": {
+    "background": "#ffffff",
+    "surface": "#ffffff",
+    "foreground": "#161616",
+    "muted": "#686868",
+    "font": "Arial, sans-serif",
+    "density": "comfortable",
+    "padding": 32,
+    "gap": 28,
+    "contentWidth": 620,
+    "backgroundFit": "cover",
+    "headingFont": "Arial, sans-serif"
+  },
+  "native": {
+    "background": "#ffffff",
+    "foreground": "#161616",
+    "inputBackground": "#ffffff",
+    "inputBorder": "#bebebe",
+    "padding": 34,
+    "radius": 5,
+    "gap": 18,
+    "buttonBackground": "#171717",
+    "buttonColor": "#ffffff",
+    "styles": {
+      "title": {
+        "fontSize": 28,
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "description": {
+        "fontSize": 13,
+        "lineHeight": 1.7,
+        "color": "#686868"
+      },
+      "action": {
+        "fontSize": 13,
+        "fontWeight": 600,
+        "padding": 14
+      },
+      "nameLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#161616"
+      },
+      "nameExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 5
+      },
+      "emailLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#161616"
+      },
+      "emailExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 5
+      },
+      "usernameLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#161616"
+      },
+      "usernameExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 5
+      },
+      "passwordLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#161616"
+      },
+      "passwordExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 5
+      },
+      "otpLabel": {
+        "fontSize": 12,
+        "fontWeight": 500,
+        "color": "#161616"
+      },
+      "otpExample": {
+        "fontSize": 14,
+        "padding": 13,
+        "radius": 5
+      }
+    },
+    "copy": {
+      "title": "Confirmez votre adresse",
+      "description": "Un dernier clic pour confirmer votre adresse. Ce lien est personnel.",
+      "action": "Confirmer mon adresse",
+      "usernameLabel": "Adresse e-mail",
+      "usernameExample": "camille@aurora.fr",
+      "passwordLabel": "Mot de passe",
+      "passwordExample": "••••••••",
+      "otpLabel": "Code de vérification",
+      "otpExample": "000 000",
+      "nameLabel": "Nom complet",
+      "nameExample": "Camille Martin",
+      "emailLabel": "Adresse e-mail",
+      "emailExample": "camille@aurora.fr",
+      "row0": "Mon compte",
+      "row1": "Mes applications",
+      "row2": "",
+      "row0Action": "Modifier le mot de passe",
+      "row1Action": "Configurer le MFA",
+      "row2Action": "Gérer les sessions"
+    },
+    "fieldStyle": "outline",
+    "actionSize": "full"
+  },
+  "i18n": {
+    "defaultLocale": "fr",
+    "supportedLocales": [
+      "fr",
+      "en",
+      "es",
+      "de",
+      "it",
+      "pt-BR",
+      "ar",
+      "he"
+    ],
+    "messages": {
+      "en": {
+        "subject": "Confirm your Aurora email",
+        "brand.alt": "Aurora",
+        "native.title": "Confirm your email",
+        "native.description": "One last click to confirm your email. This link is personal.",
+        "native.action": "Confirm my email",
+        "native.usernameLabel": "Email address",
+        "native.passwordLabel": "Password",
+        "native.otpLabel": "Verification code",
+        "native.nameLabel": "Full name",
+        "native.emailLabel": "Email address",
+        "native.row0": "My account",
+        "native.row1": "My applications",
+        "native.row0Action": "Change password",
+        "native.row1Action": "Set up MFA",
+        "native.row2Action": "Manage sessions",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · Privacy and terms",
+        "blocks.terminal-email-title.text": "One login. All your tools.",
+        "blocks.terminal-email-body.text": "Hello {{prénom}},\nConfirm your email to access your Aurora space.",
+        "blocks.terminal-section-label.text": "A MESSAGE FOR YOU"
+      },
+      "es": {
+        "subject": "Confirma tu correo de Aurora",
+        "brand.alt": "Aurora",
+        "native.title": "Confirma tu correo",
+        "native.description": "Un último clic para confirmar tu correo. Este enlace es personal.",
+        "native.action": "Confirmar mi correo",
+        "native.usernameLabel": "Correo electrónico",
+        "native.passwordLabel": "Contraseña",
+        "native.otpLabel": "Código de verificación",
+        "native.nameLabel": "Nombre completo",
+        "native.emailLabel": "Correo electrónico",
+        "native.row0": "Mi cuenta",
+        "native.row1": "Mis aplicaciones",
+        "native.row0Action": "Cambiar contraseña",
+        "native.row1Action": "Configurar MFA",
+        "native.row2Action": "Gestionar sesiones",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · Privacidad y condiciones",
+        "blocks.terminal-email-title.text": "Un acceso. Todas tus herramientas.",
+        "blocks.terminal-email-body.text": "Hola {{prénom}},\nConfirma tu correo para acceder a tu espacio Aurora.",
+        "blocks.terminal-section-label.text": "UN MENSAJE PARA TI"
+      },
+      "de": {
+        "subject": "Bestätigen Sie Ihre Aurora-E-Mail-Adresse",
+        "brand.alt": "Aurora",
+        "native.title": "Bestätigen Sie Ihre E-Mail-Adresse",
+        "native.description": "Ein letzter Klick bestätigt Ihre E-Mail-Adresse. Dieser Link ist persönlich.",
+        "native.action": "E-Mail-Adresse bestätigen",
+        "native.usernameLabel": "E-Mail-Adresse",
+        "native.passwordLabel": "Passwort",
+        "native.otpLabel": "Bestätigungscode",
+        "native.nameLabel": "Vollständiger Name",
+        "native.emailLabel": "E-Mail-Adresse",
+        "native.row0": "Mein Konto",
+        "native.row1": "Meine Anwendungen",
+        "native.row0Action": "Passwort ändern",
+        "native.row1Action": "MFA einrichten",
+        "native.row2Action": "Sitzungen verwalten",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · Datenschutz und Bedingungen",
+        "blocks.terminal-email-title.text": "Ein Zugang. Alle Ihre Werkzeuge.",
+        "blocks.terminal-email-body.text": "Hallo {{prénom}},\nbestätigen Sie Ihre E-Mail-Adresse, um auf Ihren Aurora-Bereich zuzugreifen.",
+        "blocks.terminal-section-label.text": "EINE NACHRICHT FÜR SIE"
+      },
+      "it": {
+        "subject": "Conferma la tua email Aurora",
+        "brand.alt": "Aurora",
+        "native.title": "Conferma la tua email",
+        "native.description": "Un ultimo clic per confermare la tua email. Questo link è personale.",
+        "native.action": "Conferma la mia email",
+        "native.usernameLabel": "Indirizzo email",
+        "native.passwordLabel": "Password",
+        "native.otpLabel": "Codice di verifica",
+        "native.nameLabel": "Nome completo",
+        "native.emailLabel": "Indirizzo email",
+        "native.row0": "Il mio account",
+        "native.row1": "Le mie applicazioni",
+        "native.row0Action": "Cambia password",
+        "native.row1Action": "Configura MFA",
+        "native.row2Action": "Gestisci sessioni",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · Privacy e condizioni",
+        "blocks.terminal-email-title.text": "Un accesso. Tutti i vostri strumenti.",
+        "blocks.terminal-email-body.text": "Ciao {{prénom}},\nconferma la tua email per accedere al tuo spazio Aurora.",
+        "blocks.terminal-section-label.text": "UN MESSAGGIO PER TE"
+      },
+      "pt-BR": {
+        "subject": "Confirme seu e-mail do Aurora",
+        "brand.alt": "Aurora",
+        "native.title": "Confirme seu e-mail",
+        "native.description": "Um último clique para confirmar seu e-mail. Este link é pessoal.",
+        "native.action": "Confirmar meu e-mail",
+        "native.usernameLabel": "Endereço de e-mail",
+        "native.passwordLabel": "Senha",
+        "native.otpLabel": "Código de verificação",
+        "native.nameLabel": "Nome completo",
+        "native.emailLabel": "Endereço de e-mail",
+        "native.row0": "Minha conta",
+        "native.row1": "Meus aplicativos",
+        "native.row0Action": "Alterar senha",
+        "native.row1Action": "Configurar MFA",
+        "native.row2Action": "Gerenciar sessões",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · Privacidade e termos",
+        "blocks.terminal-email-title.text": "Um acesso. Todas as suas ferramentas.",
+        "blocks.terminal-email-body.text": "Olá {{prénom}},\nconfirme seu e-mail para acessar seu espaço Aurora.",
+        "blocks.terminal-section-label.text": "UMA MENSAGEM PARA VOCÊ"
+      },
+      "ar": {
+        "subject": "أكد بريدك الإلكتروني في Aurora",
+        "brand.alt": "Aurora",
+        "native.title": "أكد بريدك الإلكتروني",
+        "native.description": "نقرة أخيرة لتأكيد بريدك الإلكتروني. هذا الرابط شخصي.",
+        "native.action": "تأكيد بريدي الإلكتروني",
+        "native.usernameLabel": "البريد الإلكتروني",
+        "native.passwordLabel": "كلمة المرور",
+        "native.otpLabel": "رمز التحقق",
+        "native.nameLabel": "الاسم الكامل",
+        "native.emailLabel": "البريد الإلكتروني",
+        "native.row0": "حسابي",
+        "native.row1": "تطبيقاتي",
+        "native.row0Action": "تغيير كلمة المرور",
+        "native.row1Action": "إعداد المصادقة متعددة العوامل",
+        "native.row2Action": "إدارة الجلسات",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · الخصوصية والشروط",
+        "blocks.terminal-email-title.text": "دخول واحد. كل أدواتك.",
+        "blocks.terminal-email-body.text": "مرحبًا {{prénom}}،\nأكد عنوان بريدك الإلكتروني للوصول إلى مساحتك في Aurora.",
+        "blocks.terminal-section-label.text": "رسالة لك"
+      },
+      "he": {
+        "subject": "אישור כתובת הדוא״ל שלך ב-Aurora",
+        "brand.alt": "Aurora",
+        "native.title": "אישור כתובת הדוא״ל שלך",
+        "native.description": "עוד לחיצה לאישור כתובת הדוא״ל שלך. הקישור אישי.",
+        "native.action": "אישור כתובת הדוא״ל שלי",
+        "native.usernameLabel": "כתובת דוא״ל",
+        "native.passwordLabel": "סיסמה",
+        "native.otpLabel": "קוד אימות",
+        "native.nameLabel": "שם מלא",
+        "native.emailLabel": "כתובת דוא״ל",
+        "native.row0": "החשבון שלי",
+        "native.row1": "היישומים שלי",
+        "native.row0Action": "שינוי סיסמה",
+        "native.row1Action": "הגדרת אימות רב-שלבי",
+        "native.row2Action": "ניהול חיבורים",
+        "brand.name": "aurora.",
+        "blocks.terminal-footer.text": "© Aurora · פרטיות ותנאים",
+        "blocks.terminal-email-title.text": "כניסה אחת. כל הכלים שלכם.",
+        "blocks.terminal-email-body.text": "שלום {{prénom}},\nיש לאשר את כתובת הדוא״ל כדי לגשת לאזור שלך ב-Aurora.",
+        "blocks.terminal-section-label.text": "הודעה בשבילך"
+      },
+      "fr": {
+        "brand.name": "aurora.",
+        "brand.alt": "Aurora"
+      }
+    },
+    "automatic": {
+      "en": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "es": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "de": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "it": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "pt-BR": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "ar": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ],
+      "he": [
+        "subject",
+        "brand.alt",
+        "native.title",
+        "native.description",
+        "native.action",
+        "native.usernameLabel",
+        "native.passwordLabel",
+        "native.otpLabel",
+        "native.nameLabel",
+        "native.emailLabel",
+        "native.row0",
+        "native.row1",
+        "native.row0Action",
+        "native.row1Action",
+        "native.row2Action"
+      ]
+    }
+  }
+}

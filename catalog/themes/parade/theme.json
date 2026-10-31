@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "name": "parade",
+  "headline": "Parade",
+  "subline": "Good energy travels.",
+  "fontFamily": "\"Hanko Sans\", sans-serif",
+  "colors": {
+    "light": {
+      "background": "#fee5ed",
+      "foreground": "#30133f",
+      "primary": "#5126c6",
+      "primaryForeground": "#ffffff",
+      "card": "#fff9fc",
+      "muted": "#755168",
+      "input": "#fff9fc",
+      "border": "#c5b9c7"
+    },
+    "dark": {
+      "background": "#fee5ed",
+      "foreground": "#30133f",
+      "primary": "#5126c6",
+      "primaryForeground": "#ffffff",
+      "card": "#fff9fc",
+      "muted": "#755168",
+      "input": "#fff9fc",
+      "border": "#c5b9c7"
+    }
+  },
+  "layout": {
+    "cardRadius": "6px",
+    "controlRadius": "9px",
+    "contentWidth": "460px"
+  }
+}
