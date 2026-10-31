@@ -18,6 +18,8 @@ test('the distributable retains all sixteen independently authored identities an
   const emails=theme.templates.filter(template=>template.editorPage.startsWith('email:')).map(template=>pageTemplates[template.path]);
   assert.equal(new Set(emails.map(page=>page.subject)).size,3);
   assert.deepEqual(nativeThemes[theme.id],await json(theme.themePath));
+  assert.equal(nativeThemes[theme.id].subline,theme.design.title);
+  assert.equal(theme.style.description,theme.description);
   assert.deepEqual(contracts.validate('theme',nativeThemes[theme.id]),{valid:true,errors:[]});
   assert.ok(frameCss.includes('[data-hanko-frame='+theme.id+']'),theme.id+' authored layout');
   for(const template of theme.templates){

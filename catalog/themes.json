@@ -1,24 +1,24 @@
 {
   "format": "hanko.theme-catalog/v1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "status": "draft",
   "themes": [
     {
       "id": "evidence",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Évidence",
-      "description": "Une interface lumineuse, des mots simples et une seule décision à chaque étape. Le compte devient un espace clair et familier.",
+      "description": "A bright, spacious interface with plain language and one clear decision at each step. Everyday account tasks feel familiar and easy to find.",
       "license": "Apache-2.0",
       "tags": [
         "essential",
         "Services",
-        "Grand public",
+        "Consumer products",
         "Institutions"
       ],
       "style": {
         "id": "evidence",
         "name": "Évidence",
-        "description": "Une interface lumineuse, des mots simples et une seule décision à chaque étape. Le compte devient un espace clair et familier.",
+        "description": "A bright, spacious interface with plain language and one clear decision at each step. Everyday account tasks feel familiar and easy to find.",
         "accent": "#245dda",
         "background": "#f5f7fb",
         "surface": "#ffffff",
@@ -245,21 +245,21 @@
       "design": {
         "number": "01",
         "family": "essential",
-        "title": "La confiance, sans effort.",
-        "audience": "Services · Grand public · Institutions",
+        "title": "Clarity comes naturally.",
+        "audience": "Services · Consumer products · Institutions",
         "details": [
-          "Une connexion progressive qui réduit la charge visuelle.",
-          "Une navigation horizontale et des réglages regroupés par usage.",
-          "Un bleu franc, beaucoup d’espace et une typographie sans effet.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A focused sign-in flow with room to breathe.",
+          "Horizontal account navigation and settings grouped around everyday tasks.",
+          "Confident blue accents, generous spacing and understated sans-serif typography.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Google — connexion",
+            "label": "Google — sign-in",
             "url": "https://accounts.google.com/"
           },
           {
-            "label": "Apple — site officiel",
+            "label": "Apple — official website",
             "url": "https://www.apple.com/"
           }
         ],
@@ -268,20 +268,20 @@
     },
     {
       "id": "precision",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Précision",
-      "description": "Une direction produit exigeante : une grille précise, des contrastes mesurés et des composants qui vont droit au but.",
+      "description": "A considered product interface with a precise grid, measured contrast and compact controls. Clear hierarchy keeps complex account settings manageable.",
       "license": "Apache-2.0",
       "tags": [
         "product",
         "SaaS",
-        "Équipes",
-        "Produits professionnels"
+        "Teams",
+        "Professional tools"
       ],
       "style": {
         "id": "precision",
         "name": "Précision",
-        "description": "Une direction produit exigeante : une grille précise, des contrastes mesurés et des composants qui vont droit au but.",
+        "description": "A considered product interface with a precise grid, measured contrast and compact controls. Clear hierarchy keeps complex account settings manageable.",
         "accent": "#b5b5f9",
         "background": "#17181c",
         "surface": "#1f2026",
@@ -508,20 +508,20 @@
       "design": {
         "number": "02",
         "family": "product",
-        "title": "Le calme des outils bien conçus.",
-        "audience": "SaaS · Équipes · Produits professionnels",
+        "title": "Focus, built in.",
+        "audience": "SaaS · Teams · Professional tools",
         "details": [
-          "Un espace compte structuré, avec une navigation latérale compacte.",
-          "Des surfaces encrées, des filets fins et un accent pervenche.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A structured account workspace with compact sidebar navigation.",
+          "Ink-dark surfaces, fine borders and a periwinkle accent.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Linear — interface produit",
+            "label": "Linear — product interface",
             "url": "https://linear.app/"
           },
           {
-            "label": "Stripe — connexion",
+            "label": "Stripe — sign-in",
             "url": "https://dashboard.stripe.com/login"
           }
         ],
@@ -530,20 +530,20 @@
     },
     {
       "id": "maison",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Maison",
-      "description": "Une voix chaleureuse et une composition éditoriale. La marque s’exprime par les mots et la typographie, jusque dans les petits détails.",
+      "description": "Warm architectural photography, cream surfaces and expressive serif typography create a personal welcome. The editorial identity carries through every account service.",
       "license": "Apache-2.0",
       "tags": [
         "editorial",
-        "Hospitalité",
+        "Hospitality",
         "Lifestyle",
-        "Marques de service"
+        "Service brands"
       ],
       "style": {
         "id": "maison",
         "name": "Maison",
-        "description": "Une voix chaleureuse et une composition éditoriale. La marque s’exprime par les mots et la typographie, jusque dans les petits détails.",
+        "description": "Warm architectural photography, cream surfaces and expressive serif typography create a personal welcome. The editorial identity carries through every account service.",
         "accent": "#a84031",
         "background": "#faf7f0",
         "surface": "#fffdfa",
@@ -777,22 +777,22 @@
       "design": {
         "number": "03",
         "family": "editorial",
-        "title": "Un accueil qui a du caractère.",
-        "audience": "Hospitalité · Lifestyle · Marques de service",
+        "title": "A welcome with character.",
+        "audience": "Hospitality · Lifestyle · Service brands",
         "details": [
-          "Un grand titre éditorial et un formulaire à hauteur humaine.",
-          "Des réglages présentés comme des services, avec des actions explicites.",
-          "Un papier crème, un rouge terre et un serif expressif.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "An editorial headline paired with a comfortably sized form.",
+          "Account settings presented as services with clear, direct actions.",
+          "Warm cream, terracotta red and expressive serif typography.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [
           {
-            "label": "Airbnb — connexion et inscription",
+            "label": "Airbnb — sign-in and registration",
             "url": "https://www.airbnb.com/login"
           },
           {
-            "label": "Apple — hiérarchie et rythme",
+            "label": "Apple — hierarchy and rhythm",
             "url": "https://www.apple.com/"
           }
         ],
@@ -801,20 +801,20 @@
     },
     {
       "id": "signal",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Signal",
-      "description": "Une identité directe, une échelle typographique assumée et un parcours court. Chaque écran porte la même énergie.",
+      "description": "A direct identity built around bold typography, acid green and deep black. Short journeys and confident actions keep the same energy across every screen.",
       "license": "Apache-2.0",
       "tags": [
         "expressive",
         "Culture",
-        "Médias",
-        "Communautés"
+        "Media",
+        "Communities"
       ],
       "style": {
         "id": "signal",
         "name": "Signal",
-        "description": "Une identité directe, une échelle typographique assumée et un parcours court. Chaque écran porte la même énergie.",
+        "description": "A direct identity built around bold typography, acid green and deep black. Short journeys and confident actions keep the same energy across every screen.",
         "accent": "#c4f25c",
         "background": "#141414",
         "surface": "#1d1e19",
@@ -1041,21 +1041,21 @@
       "design": {
         "number": "04",
         "family": "expressive",
-        "title": "Impossible à confondre.",
-        "audience": "Culture · Médias · Communautés",
+        "title": "Made to stand out.",
+        "audience": "Culture · Media · Communities",
         "details": [
-          "Un écran de connexion centré, très lisible et immédiatement reconnaissable.",
-          "Un compte personnel qui associe grands titres et listes nettes.",
-          "Du noir, un vert acide et des boutons qui donnent envie d’agir.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A centred sign-in screen with an immediately recognisable hierarchy.",
+          "Large headings and crisp lists give the account area a direct, confident voice.",
+          "Deep black, acid green and prominent action buttons.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Spotify — connexion",
+            "label": "Spotify — sign-in",
             "url": "https://accounts.spotify.com/en/login"
           },
           {
-            "label": "Linear — contraste et densité",
+            "label": "Linear — contrast and density",
             "url": "https://linear.app/"
           }
         ],
@@ -1064,20 +1064,20 @@
     },
     {
       "id": "civique",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Civique",
-      "description": "Une identité de service : des étapes explicites, des informations utiles et une action principale sans ambiguïté. Tout est conçu pour être compris immédiatement.",
+      "description": "A service-first interface with explicit steps, useful guidance and an unmistakable primary action. Information stays clear, practical and easy to scan.",
       "license": "Apache-2.0",
       "tags": [
         "essential",
-        "Services publics",
-        "Éducation",
-        "Associations"
+        "Public services",
+        "Education",
+        "Nonprofits"
       ],
       "style": {
         "id": "civique",
         "name": "Civique",
-        "description": "Une identité de service : des étapes explicites, des informations utiles et une action principale sans ambiguïté. Tout est conçu pour être compris immédiatement.",
+        "description": "A service-first interface with explicit steps, useful guidance and an unmistakable primary action. Information stays clear, practical and easy to scan.",
         "accent": "#1a538a",
         "background": "#ffffff",
         "surface": "#ffffff",
@@ -1304,21 +1304,21 @@
       "design": {
         "number": "05",
         "family": "essential",
-        "title": "La simplicité au service de tous.",
-        "audience": "Services publics · Éducation · Associations",
+        "title": "Clear access. For everyone.",
+        "audience": "Public services · Education · Nonprofits",
         "details": [
-          "Un bandeau de service et un parcours numéroté : identification, vérification, accès.",
-          "Des libellés visibles, des boutons rectangulaires et une aide placée à côté du formulaire.",
-          "Un compte organisé en listes de réglages plutôt qu’en cartes promotionnelles.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A service banner and a numbered journey from identification to verification and access.",
+          "Visible labels, rectangular controls and help beside the form.",
+          "Account settings organised as practical lists.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "GOV.UK — hiérarchie de service",
+            "label": "GOV.UK — service hierarchy",
             "url": "https://www.gov.uk/"
           },
           {
-            "label": "Google — connexion progressive",
+            "label": "Google — progressive sign-in",
             "url": "https://accounts.google.com/"
           }
         ],
@@ -1327,20 +1327,20 @@
     },
     {
       "id": "edition",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Édition",
-      "description": "Un grand bandeau typographique, une grille de journal et des filets francs. Une direction culturelle qui donne une place centrale au contenu et à la relation avec le lecteur.",
+      "description": "Oversized typography, newspaper-inspired grids and strong rules put content first. An editorial direction designed around a lasting relationship with readers.",
       "license": "Apache-2.0",
       "tags": [
         "editorial",
-        "Presse",
+        "Publishing",
         "Culture",
-        "Édition"
+        "Editorial brands"
       ],
       "style": {
         "id": "edition",
         "name": "Édition",
-        "description": "Un grand bandeau typographique, une grille de journal et des filets francs. Une direction culturelle qui donne une place centrale au contenu et à la relation avec le lecteur.",
+        "description": "Oversized typography, newspaper-inspired grids and strong rules put content first. An editorial direction designed around a lasting relationship with readers.",
         "accent": "#8c2a3e",
         "background": "#fffdf8",
         "surface": "#fffdf8",
@@ -1567,21 +1567,21 @@
       "design": {
         "number": "06",
         "family": "editorial",
-        "title": "Une identité qui fait la une.",
-        "audience": "Presse · Culture · Édition",
+        "title": "An identity worth reading.",
+        "audience": "Publishing · Culture · Editorial brands",
         "details": [
-          "Une marque en tête de page et une entrée organisée comme une rubrique.",
-          "Un formulaire encadré par une introduction éditoriale et un sommaire de services.",
-          "Un compte en deux colonnes : informations personnelles et accès rapides.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A prominent masthead and an opening section with editorial structure.",
+          "A form framed by an introduction and a concise index of services.",
+          "A two-column account layout for personal details and quick access.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "The Guardian — grille et titraille",
+            "label": "The Guardian — grids and headlines",
             "url": "https://www.theguardian.com/international"
           },
           {
-            "label": "Apple — hiérarchie",
+            "label": "Apple — hierarchy",
             "url": "https://www.apple.com/"
           }
         ],
@@ -1590,20 +1590,20 @@
     },
     {
       "id": "rituel",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Rituel",
-      "description": "Une composition calme, un ton attentionné et des surfaces accueillantes. Le formulaire est le centre de l’expérience, avec juste les repères nécessaires autour.",
+      "description": "Soft green photography, welcoming surfaces and a thoughtful tone make routine account tasks feel calm. A spacious form remains the centre of the experience.",
       "license": "Apache-2.0",
       "tags": [
         "warm",
-        "Bien-être",
-        "Soins",
-        "Services personnels"
+        "Wellness",
+        "Care",
+        "Personal services"
       ],
       "style": {
         "id": "rituel",
         "name": "Rituel",
-        "description": "Une composition calme, un ton attentionné et des surfaces accueillantes. Le formulaire est le centre de l’expérience, avec juste les repères nécessaires autour.",
+        "description": "Soft green photography, welcoming surfaces and a thoughtful tone make routine account tasks feel calm. A spacious form remains the centre of the experience.",
         "accent": "#416a51",
         "background": "#f6f8f0",
         "surface": "#fffef9",
@@ -1837,22 +1837,22 @@
       "design": {
         "number": "07",
         "family": "warm",
-        "title": "Un espace où l’on se sent bien.",
-        "audience": "Bien-être · Soins · Services personnels",
+        "title": "Make yourself at home.",
+        "audience": "Wellness · Care · Personal services",
         "details": [
-          "Un accueil centré, un formulaire spacieux et une progression discrète.",
-          "Des réglages regroupés dans de grandes surfaces arrondies, sans densité inutile.",
-          "Une palette sauge et ivoire, une typographie douce et des actions rassurantes.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "A centred welcome, a spacious form and a quiet sense of progression.",
+          "Account settings grouped within generous, rounded surfaces.",
+          "Sage, ivory and gentle typography with reassuring actions.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [
           {
-            "label": "Headspace — accueil et services",
+            "label": "Headspace — welcome and services",
             "url": "https://www.headspace.com/"
           },
           {
-            "label": "Airbnb — ton et proximité",
+            "label": "Airbnb — tone and familiarity",
             "url": "https://www.airbnb.com/login"
           }
         ],
@@ -1861,20 +1861,20 @@
     },
     {
       "id": "terminal",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Terminal",
-      "description": "Une interface technique et monochrome. La grille, les états et les libellés font l’identité ; les détails restent lisibles, même quand l’information devient dense.",
+      "description": "A monochrome technical interface where grids, states and clear labels define the identity. Dense information stays legible and carefully organised.",
       "license": "Apache-2.0",
       "tags": [
         "product",
-        "Développeurs",
+        "Developers",
         "Infrastructure",
-        "Outils"
+        "Tools"
       ],
       "style": {
         "id": "terminal",
         "name": "Terminal",
-        "description": "Une interface technique et monochrome. La grille, les états et les libellés font l’identité ; les détails restent lisibles, même quand l’information devient dense.",
+        "description": "A monochrome technical interface where grids, states and clear labels define the identity. Dense information stays legible and carefully organised.",
         "accent": "#171717",
         "background": "#ffffff",
         "surface": "#ffffff",
@@ -2101,21 +2101,21 @@
       "design": {
         "number": "08",
         "family": "product",
-        "title": "L’essentiel. Précisément.",
-        "audience": "Développeurs · Infrastructure · Outils",
+        "title": "The essentials. Precisely.",
+        "audience": "Developers · Infrastructure · Tools",
         "details": [
-          "Un formulaire autonome, complété par un panneau de contexte utile.",
-          "Des métadonnées monospace, des contours nets et une hiérarchie de produit.",
-          "Des réglages compacts et des raccourcis présentés comme des lignes d’outils.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A self-contained form supported by a useful context panel.",
+          "Monospace metadata, crisp outlines and a clear product hierarchy.",
+          "Compact settings and shortcuts arranged as practical tool rows.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Vercel — connexion",
+            "label": "Vercel — sign-in",
             "url": "https://vercel.com/login"
           },
           {
-            "label": "GitHub — compte et méthodes de connexion",
+            "label": "GitHub — account and sign-in methods",
             "url": "https://github.com/login"
           }
         ],
@@ -2124,20 +2124,20 @@
     },
     {
       "id": "comptoir",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Comptoir",
-      "description": "Un accueil de commerçant, une progression simple et un compte qui rend service. Une personnalité franche, avec un orange terre cuite et des détails chaleureux.",
+      "description": "An inviting shopfront identity with tactile ceramics, terracotta accents and practical account services. Clear forms and member details make returning feel effortless.",
       "license": "Apache-2.0",
       "tags": [
         "warm",
         "Commerce",
-        "Artisanat",
-        "Marques locales"
+        "Craft",
+        "Local brands"
       ],
       "style": {
         "id": "comptoir",
         "name": "Comptoir",
-        "description": "Un accueil de commerçant, une progression simple et un compte qui rend service. Une personnalité franche, avec un orange terre cuite et des détails chaleureux.",
+        "description": "An inviting shopfront identity with tactile ceramics, terracotta accents and practical account services. Clear forms and member details make returning feel effortless.",
         "accent": "#b54d28",
         "background": "#fffdf9",
         "surface": "#fffdf9",
@@ -2371,22 +2371,22 @@
       "design": {
         "number": "09",
         "family": "warm",
-        "title": "Le plaisir de revenir.",
-        "audience": "Commerce · Artisanat · Marques locales",
+        "title": "Good to have you back.",
+        "audience": "Commerce · Craft · Local brands",
         "details": [
-          "Une connexion inspirée de la clarté d’un checkout, avec un récapitulatif de services.",
-          "Un formulaire à gauche et un accueil de marque à droite, puis une fiche client structurée.",
-          "Des repères de membre, des listes d’informations et des actions faciles à retrouver.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "Checkout-like clarity with a concise overview of member services.",
+          "A form on the left, a brand welcome on the right and a structured customer profile.",
+          "Member details, information lists and actions that are easy to find.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [
           {
-            "label": "Shopify — commerce et parcours",
+            "label": "Shopify — commerce and user journeys",
             "url": "https://www.shopify.com/"
           },
           {
-            "label": "Airbnb — accueil",
+            "label": "Airbnb — welcome",
             "url": "https://www.airbnb.com/login"
           }
         ],
@@ -2395,20 +2395,20 @@
     },
     {
       "id": "mouvement",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Mouvement",
-      "description": "Une composition franche et dynamique : grands titres condensés, formulaire blanc et panneau bleu électrique. Une identité qui s’exprime dès l’entrée.",
+      "description": "Dynamic sports photography, condensed headlines and electric blue create a bold first impression. The account area keeps the same pace and strong hierarchy.",
       "license": "Apache-2.0",
       "tags": [
         "expressive",
         "Sport",
-        "Événementiel",
-        "Communautés actives"
+        "Events",
+        "Active communities"
       ],
       "style": {
         "id": "mouvement",
         "name": "Mouvement",
-        "description": "Une composition franche et dynamique : grands titres condensés, formulaire blanc et panneau bleu électrique. Une identité qui s’exprime dès l’entrée.",
+        "description": "Dynamic sports photography, condensed headlines and electric blue create a bold first impression. The account area keeps the same pace and strong hierarchy.",
         "accent": "#304cea",
         "background": "#ffffff",
         "surface": "#ffffff",
@@ -2642,22 +2642,22 @@
       "design": {
         "number": "10",
         "family": "expressive",
-        "title": "L’énergie du premier pas.",
-        "audience": "Sport · Événementiel · Communautés actives",
+        "title": "Start with momentum.",
+        "audience": "Sport · Events · Active communities",
         "details": [
-          "Une composition inversée : accès à gauche, manifeste de marque à droite.",
-          "Des titres condensés, des boutons francs et des repères très courts.",
-          "Un espace compte à forte hiérarchie, qui conserve l’énergie de la connexion.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "An inverted composition with access on the left and a brand statement on the right.",
+          "Condensed headlines, confident buttons and concise signposts.",
+          "A strongly structured account area that carries the energy of the sign-in screen.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [
           {
-            "label": "Nike — rythme et titres",
+            "label": "Nike — rhythm and headlines",
             "url": "https://www.nike.com/fr/"
           },
           {
-            "label": "Spotify — action principale",
+            "label": "Spotify — primary action",
             "url": "https://accounts.spotify.com/en/login"
           }
         ],
@@ -2666,20 +2666,20 @@
     },
     {
       "id": "folio",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Folio",
-      "description": "Une direction de studio : un rail de marque, un grand titre et un accès organisé en deux colonnes. Les couleurs franches servent une composition précise.",
+      "description": "A creative studio identity with a distinctive brand rail, oversized headings and an offset two-column layout. Confident colours give every component its own presence.",
       "license": "Apache-2.0",
       "tags": [
         "expressive",
         "Design",
-        "Création",
+        "Creative work",
         "Studios"
       ],
       "style": {
         "id": "folio",
         "name": "Folio",
-        "description": "Une direction de studio : un rail de marque, un grand titre et un accès organisé en deux colonnes. Les couleurs franches servent une composition précise.",
+        "description": "A creative studio identity with a distinctive brand rail, oversized headings and an offset two-column layout. Confident colours give every component its own presence.",
         "accent": "#6a3c91",
         "background": "#fff8d8",
         "surface": "#fffdf3",
@@ -2906,20 +2906,20 @@
       "design": {
         "number": "11",
         "family": "expressive",
-        "title": "De la place pour les idées.",
-        "audience": "Design · Création · Studios",
+        "title": "Room for ideas.",
+        "audience": "Design · Creative work · Studios",
         "details": [
-          "Un rail violet, un fond jaune pâle et une composition d’atelier.",
-          "Un compte en modules asymétriques, avec une identité visible dans chaque composant.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A violet brand rail, a pale yellow canvas and a studio-inspired composition.",
+          "Asymmetric account modules with a visible identity in every component.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Figma — composition et caractère",
+            "label": "Figma — composition and character",
             "url": "https://www.figma.com/"
           },
           {
-            "label": "Linear — cohérence des composants",
+            "label": "Linear — component consistency",
             "url": "https://linear.app/"
           }
         ],
@@ -2928,20 +2928,20 @@
     },
     {
       "id": "patrimoine",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Patrimoine",
-      "description": "Une direction posée : vert profond, ivoire et typographie classique. L’accueil reste concentré et le compte privilégie les informations et la qualité de service.",
+      "description": "Deep green, ivory and classical typography set a composed tone. Restrained layouts give personal information and quality of service room to stand out.",
       "license": "Apache-2.0",
       "tags": [
         "editorial",
-        "Hôtellerie",
-        "Patrimoine",
-        "Marques premium"
+        "Hotels",
+        "Heritage",
+        "Premium brands"
       ],
       "style": {
         "id": "patrimoine",
         "name": "Patrimoine",
-        "description": "Une direction posée : vert profond, ivoire et typographie classique. L’accueil reste concentré et le compte privilégie les informations et la qualité de service.",
+        "description": "Deep green, ivory and classical typography set a composed tone. Restrained layouts give personal information and quality of service room to stand out.",
         "accent": "#365e50",
         "background": "#173e32",
         "surface": "#fbf8ef",
@@ -3168,21 +3168,21 @@
       "design": {
         "number": "12",
         "family": "editorial",
-        "title": "La discrétion a de l’allure.",
-        "audience": "Hôtellerie · Patrimoine · Marques premium",
+        "title": "Quietly distinctive.",
+        "audience": "Hotels · Heritage · Premium brands",
         "details": [
-          "Un écran de connexion centré, sur un fond vert profond, avec un formulaire ivoire.",
-          "Une navigation de compte latérale, une composition sobre et des services en lignes.",
-          "Des proportions classiques et des accents laiton mesurés.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails."
+          "A centred sign-in screen on deep green with an ivory form.",
+          "Sidebar navigation, restrained account layouts and service rows.",
+          "Classical proportions and subtle brass accents.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails."
         ],
         "sources": [
           {
-            "label": "Apple — retenue et hiérarchie",
+            "label": "Apple — restraint and hierarchy",
             "url": "https://www.apple.com/"
           },
           {
-            "label": "The Guardian — typographie éditoriale",
+            "label": "The Guardian — editorial typography",
             "url": "https://www.theguardian.com/international"
           }
         ],
@@ -3191,21 +3191,21 @@
     },
     {
       "id": "zeste",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Zeste",
-      "description": "Une photographie d’agrumes en grand format, du bleu électrique et un orange franc. Une direction solaire qui donne de l’énergie dès la connexion.",
+      "description": "Juicy citrus photography meets electric blue and vivid orange. A bright, sunlit identity brings a fresh burst of energy to the sign-in experience.",
       "license": "Apache-2.0",
       "tags": [
         "vibrant",
-        "photographie",
+        "photography",
         "Food",
-        "Marques joyeuses",
-        "Services créatifs"
+        "Playful brands",
+        "Creative services"
       ],
       "style": {
         "id": "zeste",
         "name": "Zeste",
-        "description": "Une photographie d’agrumes en grand format, du bleu électrique et un orange franc. Une direction solaire qui donne de l’énergie dès la connexion.",
+        "description": "Juicy citrus photography meets electric blue and vivid orange. A bright, sunlit identity brings a fresh burst of energy to the sign-in experience.",
         "accent": "#d34317",
         "background": "#fff8ed",
         "surface": "#fffefa",
@@ -3439,14 +3439,14 @@
       "design": {
         "number": "13",
         "family": "vibrant",
-        "title": "Faites le plein de couleurs.",
-        "audience": "Food · Marques joyeuses · Services créatifs",
+        "title": "A fresh burst of colour.",
+        "audience": "Food · Playful brands · Creative services",
         "details": [
-          "Une photographie originale en grand format, modifiable dans le Studio.",
-          "Un formulaire sur une surface unie pour garder les textes et les actions lisibles.",
-          "La même identité sur les écrans de connexion, de compte et de sécurité.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [],
         "introduced": true
@@ -3454,21 +3454,21 @@
     },
     {
       "id": "parade",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Parade",
-      "description": "Une scène de danse pleine de mouvement, des couleurs corail et violet et une typographie directe. Un accueil vivant pour les marques qui rassemblent.",
+      "description": "Expressive dance photography, coral and violet bring movement to a direct typographic layout. A lively welcome for brands that bring people together.",
       "license": "Apache-2.0",
       "tags": [
         "vibrant",
-        "photographie",
+        "photography",
         "Culture",
-        "Événements",
-        "Communautés"
+        "Events",
+        "Communities"
       ],
       "style": {
         "id": "parade",
         "name": "Parade",
-        "description": "Une scène de danse pleine de mouvement, des couleurs corail et violet et une typographie directe. Un accueil vivant pour les marques qui rassemblent.",
+        "description": "Expressive dance photography, coral and violet bring movement to a direct typographic layout. A lively welcome for brands that bring people together.",
         "accent": "#5126c6",
         "background": "#fee5ed",
         "surface": "#fff9fc",
@@ -3702,14 +3702,14 @@
       "design": {
         "number": "14",
         "family": "vibrant",
-        "title": "La bonne énergie se partage.",
-        "audience": "Culture · Événements · Communautés",
+        "title": "Good energy travels.",
+        "audience": "Culture · Events · Communities",
         "details": [
-          "Une photographie originale en grand format, modifiable dans le Studio.",
-          "Un formulaire sur une surface unie pour garder les textes et les actions lisibles.",
-          "La même identité sur les écrans de connexion, de compte et de sécurité.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [],
         "introduced": true
@@ -3717,21 +3717,21 @@
     },
     {
       "id": "bloom",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Bloom",
-      "description": "Des fleurs fuchsia et orange, un fond outremer et un accueil rose lumineux. Une composition expressive et organique, avec une typographie éditoriale.",
+      "description": "Fuchsia and orange flowers, ultramarine details and luminous pink surfaces create an expressive, organic identity with editorial typography.",
       "license": "Apache-2.0",
       "tags": [
         "vibrant",
-        "photographie",
-        "Beauté",
+        "photography",
+        "Beauty",
         "Lifestyle",
-        "Marques indépendantes"
+        "Independent brands"
       ],
       "style": {
         "id": "bloom",
         "name": "Bloom",
-        "description": "Des fleurs fuchsia et orange, un fond outremer et un accueil rose lumineux. Une composition expressive et organique, avec une typographie éditoriale.",
+        "description": "Fuchsia and orange flowers, ultramarine details and luminous pink surfaces create an expressive, organic identity with editorial typography.",
         "accent": "#bc1e67",
         "background": "#fff1f6",
         "surface": "#ffffff",
@@ -3965,14 +3965,14 @@
       "design": {
         "number": "15",
         "family": "vibrant",
-        "title": "Une identité qui éclot.",
-        "audience": "Beauté · Lifestyle · Marques indépendantes",
+        "title": "An identity in bloom.",
+        "audience": "Beauty · Lifestyle · Independent brands",
         "details": [
-          "Une photographie originale en grand format, modifiable dans le Studio.",
-          "Un formulaire sur une surface unie pour garder les textes et les actions lisibles.",
-          "La même identité sur les écrans de connexion, de compte et de sécurité.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [],
         "introduced": true
@@ -3980,21 +3980,21 @@
     },
     {
       "id": "rivage",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "Rivage",
-      "description": "Une plage turquoise vue du ciel, des parasols orange et des surfaces claires. Une identité vive et ouverte, avec un formulaire très lisible.",
+      "description": "An aerial turquoise shoreline, orange parasols and light surfaces create an open, vivid identity. A clear form gives the photography room to breathe.",
       "license": "Apache-2.0",
       "tags": [
         "vibrant",
-        "photographie",
-        "Voyage",
-        "Loisirs",
-        "Services du quotidien"
+        "photography",
+        "Travel",
+        "Leisure",
+        "Everyday services"
       ],
       "style": {
         "id": "rivage",
         "name": "Rivage",
-        "description": "Une plage turquoise vue du ciel, des parasols orange et des surfaces claires. Une identité vive et ouverte, avec un formulaire très lisible.",
+        "description": "An aerial turquoise shoreline, orange parasols and light surfaces create an open, vivid identity. A clear form gives the photography room to breathe.",
         "accent": "#006f83",
         "background": "#ecfbfc",
         "surface": "#ffffff",
@@ -4228,14 +4228,14 @@
       "design": {
         "number": "16",
         "family": "vibrant",
-        "title": "Prenez le large.",
-        "audience": "Voyage · Loisirs · Services du quotidien",
+        "title": "A little room to escape.",
+        "audience": "Travel · Leisure · Everyday services",
         "details": [
-          "Une photographie originale en grand format, modifiable dans le Studio.",
-          "Un formulaire sur une surface unie pour garder les textes et les actions lisibles.",
-          "La même identité sur les écrans de connexion, de compte et de sécurité.",
-          "Une identité déclinée sur les 18 écrans : repères éditoriaux, navigation, panneaux de services et e-mails.",
-          "Le même univers photographique accompagne la connexion, tous les réglages du compte, l’administration et les e-mails."
+          "Original large-format photography, editable in the Studio.",
+          "A solid form surface keeps text and actions easy to read.",
+          "A shared identity across sign-in, account and security screens.",
+          "A consistent identity across all 18 screens, including editorial cues, navigation, service panels and emails.",
+          "The same photographic world continues through sign-in, account settings, administration and emails."
         ],
         "sources": [],
         "introduced": true

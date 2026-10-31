@@ -10,7 +10,7 @@ The canonical source of reusable themes for Hanko Theme Studio, licensed under A
 
 ![Gallery showing sixteen complete identity themes](docs/screenshots/gallery.png)
 
-The gallery uses the same authored pages and compositions as the editor. [Explore the theme sources](catalog/themes) or open them in [Hanko Theme Studio](https://github.com/Alien6-Studio/hankoshell-keycloak-theme-builder/tree/main/studio).
+The gallery, theme descriptions and screenshots use English. Theme content remains available in all eight languages. The gallery uses the same authored pages and compositions as the editor. [Explore the theme sources](catalog/themes) or open them in [Hanko Theme Studio](https://github.com/Alien6-Studio/hankoshell-keycloak-theme-builder/tree/main/studio).
 
 | Expressive photography | Editorial and hospitality | Product and service | Creative identities |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ mkdir -p artifacts
 npm pack --pack-destination artifacts
 ```
 
-Download the versioned archive, source metadata and SHA-256 checksums from the [v0.1.0 release](https://github.com/Alien6-Studio/hankoshell-theme-catalog/releases/tag/v0.1.0). npm registry publishing is not enabled. Install a downloaded archive with `npm install /path/to/alien6-hankoshell-theme-catalog-0.1.0.tgz`.
+Download the versioned archive, source metadata and SHA-256 checksums from the [v0.1.1 release](https://github.com/Alien6-Studio/hankoshell-theme-catalog/releases/tag/v0.1.1). npm registry publishing is not enabled. Install a downloaded archive with `npm install /path/to/alien6-hankoshell-theme-catalog-0.1.1.tgz`.
 
 The single build script validates the documents, shares repeated media and emits a self-contained package with public TypeScript declarations and source provenance. Repeated photographs are shared in its JavaScript modules; projects retain portable raster data when materialized. Original photographs remain in this repository. `dist/source.json` records the repository, version, source revision and a SHA-256 fingerprint of the source snapshot.
 
@@ -65,7 +65,7 @@ Pass an explicitly built archive to the builder; no implicit sibling path is use
 
 ```sh
 # In hankoshell-keycloak-theme-builder
-npm run catalog:update -- /path/to/alien6-hankoshell-theme-catalog-0.1.0.tgz
+npm run catalog:update -- /path/to/alien6-hankoshell-theme-catalog-0.1.1.tgz
 npm run build
 npm run build:site --prefix studio
 ```
