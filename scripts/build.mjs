@@ -5,7 +5,28 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import {build} from 'esbuild';
-import {catalogMediaEsbuild} from './catalog-media.mjs';
+// Authored documents remain self-contained. Bundles share repeated photographs.
+function mediaRegistry(){
+ const assets=new Map();
+ return {assets,async page(path){
+  const source=await readFile(path,'utf8'),imports=new Map();
+  const expression=source.replace(/"data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/=]+"/g,literal=>{
+   const id=createHash('sha256').update(literal).digest('hex');assets.set(id,literal);
+   if(!imports.has(id))imports.set(id,'media'+imports.size);
+   return imports.get(id);
+  });
+  return [...imports].map(([id,name])=>`import ${name} from 'catalog-media:${id}';`).join('\n')+'\nexport default '+expression+';';
+ }};
+}
+function catalogMediaEsbuild(){
+ const registry=mediaRegistry();
+ return {name:'catalog-media',setup(builder){
+  builder.onLoad({filter:/[/\\]catalog[/\\]themes[/\\].*[/\\]pages[/\\].*\.json$/},async args=>({contents:await registry.page(args.path),loader:'js',resolveDir:resolve(args.path,'..')}));
+  builder.onResolve({filter:/^catalog-media:/},args=>({path:args.path.slice(14),namespace:'catalog-media'}));
+  builder.onLoad({filter:/.*/,namespace:'catalog-media'},args=>({contents:'export default '+registry.assets.get(args.path)+';',loader:'js'}));
+ }};
+}
+
 
 const root=fileURLToPath(new URL('../',import.meta.url)),dist=resolve(root,'dist');
 const json=async path=>JSON.parse(await readFile(resolve(root,path),'utf8'));

@@ -8,9 +8,8 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "npm run build && node test/validate.cjs && node --test test/*.test.mjs && node test/package-consumer.mjs",
-    "prepack": "npm run build",
-    "package:candidate": "npm run build && node scripts/package-candidate.mjs"
+    "test": "npm run build && node --test test/*.test.mjs && node test/package-consumer.mjs",
+    "prepack": "npm run build"
   },
   "dependencies": {
     "ajv": "8.20.0"

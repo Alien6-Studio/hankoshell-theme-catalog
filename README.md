@@ -43,9 +43,9 @@ mkdir -p artifacts
 npm pack --pack-destination artifacts
 ```
 
-Archives are distributed through GitHub Actions; npm registry publishing is not enabled. Install a downloaded archive with `npm install /path/to/alien6-hankoshell-theme-catalog-0.1.0.tgz`.
+Download the versioned archive, source metadata and SHA-256 checksums from the [v0.1.0 release](https://github.com/Alien6-Studio/hankoshell-theme-catalog/releases/tag/v0.1.0). npm registry publishing is not enabled. Install a downloaded archive with `npm install /path/to/alien6-hankoshell-theme-catalog-0.1.0.tgz`.
 
-The build checks every authored page and emits a self-contained package. Repeated photographs are shared in its JavaScript modules; projects retain portable raster data when materialized. Original photographs remain in this repository. `dist/source.json` records the repository, version, source revision and a SHA-256 fingerprint of the source snapshot.
+The single build script validates the documents, shares repeated media and emits a self-contained package with public TypeScript declarations and source provenance. Repeated photographs are shared in its JavaScript modules; projects retain portable raster data when materialized. Original photographs remain in this repository. `dist/source.json` records the repository, version, source revision and a SHA-256 fingerprint of the source snapshot.
 
 ```js
 import {catalogue, pageTemplates, nativeThemes} from '@alien6/hankoshell-theme-catalog';
@@ -76,8 +76,8 @@ The update command pins the archive by SHA-256, records its provenance and updat
 
 Update a theme's own documents and layout recipe here. Keep all 18 pages, translations, original asset sources, licence metadata and SHA-256 values consistent. Do not add scripts, credentials or remote image dependencies to documents. Generic rendering, editing controls and Keycloak/React adapters belong to the builder. Contract snapshots must remain compatible with the consuming Studio version.
 
-Inspect themes in the Studio consumer on desktop, mobile and RTL before refreshing their previews. The Studio's coherence tests compare exploration, editing and exported documents; continuity tests cover every desktop page and representative mobile pages. See [design directions](docs/design-directions.md) and image prompts under `catalog/`.
+Inspect themes in the Studio consumer on desktop, mobile and RTL before refreshing their previews. The Studio's coherence tests compare exploration, editing and exported documents; continuity tests cover every desktop page and representative mobile pages. Design references are recorded in each theme’s manifest; original image prompts live under `catalog/`.
 
 ## Project standards
 
-CI validates the complete catalogue, original asset hashes, portable layouts, public types and an isolated installation of the actual archive on Node 22 and 24. CodeQL runs on changes and weekly; Dependabot tracks npm dependencies and pinned GitHub Actions. Main accepts signed, reviewed changes with required checks. Published CI candidates carry SHA-256 checksums and GitHub build provenance. See [contributing](CONTRIBUTING.md) and the [security policy](SECURITY.md).
+CI validates the complete catalogue, original asset hashes, portable layouts, public types and an isolated installation of the actual archive on Node 22 and 24. CodeQL runs on changes and weekly; Dependabot tracks npm dependencies and pinned GitHub Actions. Main accepts signed, reviewed changes with required checks. Release archives carry SHA-256 checksums and GitHub build provenance. Verify a download with `gh attestation verify <file> --repo Alien6-Studio/hankoshell-theme-catalog`. See [contributing](CONTRIBUTING.md) and the [security policy](SECURITY.md).
